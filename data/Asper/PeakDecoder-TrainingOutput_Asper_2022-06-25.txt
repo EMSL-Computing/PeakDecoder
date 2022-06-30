@@ -1,0 +1,38 @@
+
+Call:
+svm(formula = Label ~ ., data = descriptors[, -(1:2)], probability = TRUE, cross = 10, scale = TRUE)
+
+
+Parameters:
+   SVM-Type:  C-classification 
+ SVM-Kernel:  radial 
+       cost:  1 
+
+Number of Support Vectors:  49
+
+ ( 19 30 )
+
+
+Number of Classes:  2 
+
+Levels: 
+ decoy target
+
+10-fold cross-validation on training data:
+
+Total Accuracy: 98.50427 
+Single Accuracies:
+ 97.82609 100 100 100 97.87234 97.82609 95.74468 97.87234 97.87234 100 
+
+
+
+[1] "Number of examples per class:"
+
+ decoy target 
+   234    234 
+[1] ""
+[1] "Confusion matrix:"
+        
+pred     decoy target
+  decoy    233      1
+  target     1    233

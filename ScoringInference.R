@@ -1,0 +1,260 @@
+
+# This script uses the extracted precursor and fragment ion signals XIC metrics of the query set of metabolites in the library (RT, CCS, accurate precursor mass and MS/MS) from all the LC-IM-DIA-MS runs. 
+# The trained SVM model is loaded and used to score the query set of metabolites and results can be filtered using the PeakDecoder score corresponding to the estimated FDR threshold.
+# The precursor RT error (minutes) is calculated as the difference between the run RT and the expected RT (from the standards). 
+# The CCS error is calculated as the percentage difference between the run CCS (obtained from the corresponding MS-DIAL peak lists, since Skyline uses the CCS as a filter and does not report the actual CCS from the IM peak apex in the run) and the expected CCS (from the standards).
+#
+# INPUT:
+#   - PeakDecoder.Rda (trained scoring model)
+#   - StandardsLibrary-MS2.csv
+#   - Skyline-Report_[real samples].csv
+# OUTPUT:
+#   - PeakDecoder-InferenceResults_[sample]_[date].csv
+#   - Detected-molecules-quantitation_[sample]_[date].csv
+#   - PeakDecoder-InferenceSummary_[sample]_[date].txt
+
+basePathData = "/Users/xxx/Documents" # <--- update this path!
+
+inputFileMS2Library = "data/StandardsLibrary-MS2.csv"
+
+setwd(file.path(basePathData,"data/Asper"))
+inputFileSamples = "Skyline-Report_Asper_IMS_MS1-and-MSMS.csv"
+cutoff.PeakDecoderScore = 0.8 #
+
+#setwd(file.path(basePathData,"data/Pput"))
+#inputFileSamples = "Skyline-Report_Pput_IMS_MS1-and-MSMS.csv"
+#cutoff.PeakDecoderScore = 0.96 # 1% FDR
+
+#setwd(file.path(basePathData,"data/Rhodo"))
+#inputFileSamples = "Skyline-Report_Rhodo_IMS_MS1-and-MSMS.csv"
+#cutoff.PeakDecoderScore = 0.9 # 3% FDR
+
+sampleString = basename(getwd())
+
+# Thresholds to consider molecules as identified in at least one sample:
+cutoff.Mz.Error = 18 # precursor mass tolerance, ppm
+cutoff.RT.Error = 0.3 # minutes
+cutoff.CCS.Error = 1 # percent
+cutoff.SignalToNoise = 2
+
+
+library("e1071")
+# Load model:
+load("PeakDecoder.Rda")
+
+# Load training data:
+dat = read.csv(file = inputFileSamples, sep = ',', stringsAsFactors = FALSE)
+dat$Area = as.numeric(dat$Area)
+dat$Total.Area = as.numeric(dat$Total.Area)
+dat$Area[is.na(dat$Area)] = 0
+dat$Height = as.numeric(dat$Height)
+dat$Height[is.na(dat$Height)] = 0
+dat$Mass.Error.PPM = as.numeric(dat$Mass.Error.PPM)
+dat$Mass.Error.PPM[is.na(dat$Mass.Error.PPM)] = max(dat$Mass.Error.PPM, na.rm = TRUE)
+dat$Fwhm = as.numeric(dat$Fwhm)
+dat$Fwhm[is.na(dat$Fwhm)] = max(dat$Fwhm, na.rm = TRUE)
+dat$Background = as.numeric(dat$Background)
+dat$Background[is.na(dat$Background)] = max(dat$Background, na.rm = TRUE)
+dat$Retention.Time = as.numeric(dat$Retention.Time)
+dat$Retention.Time[is.na(dat$Retention.Time)] = max(dat$Retention.Time, na.rm = TRUE)
+dat$Collisional.Cross.Section = as.numeric(dat$Collisional.Cross.Section)
+
+
+colnames(dat)[colnames(dat) == "Peptide"] = "PrecursorName"
+colnames(dat)[colnames(dat) == "Fragment.Ion"] = "ProductName"
+
+# Remove fragments if Area is 0, but keep precursors:
+dat = dat[which(dat$ProductName == "precursor" | dat$Area > 0), ]
+
+# Include precursor values as columns:
+precs = dat[which(dat$ProductName == "precursor"), ]
+dat = merge(dat, data.frame(PrecursorName=precs$PrecursorName,
+                            Replicate=precs$Replicate,
+                            Precursor.RT=precs$Retention.Time, 
+                            Precursor.Fwhm = precs$Fwhm, 
+                            Precursor.Height = precs$Height), 
+                by=c("PrecursorName", "Replicate"), all.x = TRUE)
+precs = NULL
+
+# Calculate signal to noise:
+dat$SignalToNoise = (dat$Area + dat$Background) / (dat$Background + 1)
+
+dat$RetentionTime.Error = dat$Retention.Time - dat$Explicit.Retention.Time
+dat$CCS.Error = NA
+
+# --------------------------------------------------------------------------------
+# Load library:
+ms2lib = read.csv(file = inputFileMS2Library, sep = ',', stringsAsFactors = FALSE)
+ms2lib$ProductMz = NULL
+dat$methodCE = "20V"
+dat$methodCE[grepl("_40V", dat$Replicate)] = "40V"
+
+dat = merge(dat, ms2lib, by=c("PrecursorName", "ProductName", "methodCE"), all.x = TRUE)
+
+# Update intensity ranks:
+dat$PrecursorName.Replicate = paste(dat$PrecursorName, dat$Replicate, sep = '.')
+dat = dat[with(dat, order(PrecursorName.Replicate, -LibraryIntensity)), ]
+dat$LibraryIntensityRank = ave(dat$LibraryIntensity, dat$PrecursorName.Replicate, FUN=seq_along)
+dat = dat[with(dat, order(PrecursorName.Replicate, -Area)), ]
+dat$IntensityRank = ave(dat$Area, dat$PrecursorName.Replicate, FUN=seq_along)
+dat$CountDetectedFragments = ave(dat$IntensityRank, dat$PrecursorName.Replicate, FUN=max)
+dat$CountDetectedFragments = dat$CountDetectedFragments - 1 # to remove count of precursor
+
+# --------------------------------------------------------------------------------
+# Function to compute Cosine similarity
+cosineSimimilarity = function(x,y)
+{
+  return (x %*% y / sqrt(x%*%x * y%*%y))
+}
+
+# --------------------------------------------------------------------------------
+# Compute descriptors (machine learning features): 
+computeDescriptors = function(df)
+{
+  descpt = NULL
+  for(prec in unique(df$PrecursorName.Replicate))
+  {
+    tb = df[which(df$PrecursorName.Replicate == prec),]
+    
+    # Library descriptors:
+    x = tb[1,c("PrecursorName", "Replicate")]
+    x$DIA.cosSim = NA
+    if(tb$CountDetectedFragments[1] >= 1)
+      x$DIA.cosSim = cosineSimimilarity(tb$Area, tb$LibraryIntensity)
+    
+    # LC peak shape descriptors:
+    x$DIA.RTdiffSd = sd(tb$Precursor.RT[1] - tb$Retention.Time)
+    x$DIA.RTdiffMean = mean(tb$Precursor.RT[1] - tb$Retention.Time)
+    x$DIA.FWHMdiffSd = sd(tb$Precursor.Fwhm[1] - tb$Fwhm)
+    x$DIA.FWHMdiffMean = mean(tb$Precursor.Fwhm[1] - tb$Fwhm)
+    
+    # Mass error descriptor:
+    x$DIA.MassErrorSd = sd(tb$Mass.Error.PPM)
+    x$DIA.MassErrorMean = mean(tb$Mass.Error.PPM)
+    
+    
+    descpt = rbind(descpt, x)
+  }
+  return(descpt)
+}
+
+# --------------------------------------------------------------------------------
+# Calculate descriptors:
+descriptors = computeDescriptors(dat)
+descriptors = descriptors[which(descriptors$DIA.cosSim > 0), ]
+
+# Score samples with trained model:
+pred = predict(model, descriptors[,-(1:2)], probability = TRUE)
+summary(pred)
+
+prob = as.data.frame(attr(pred, "probabilities"))
+descriptors$moleculeID = rownames(descriptors)
+prob$moleculeID = rownames(prob)
+prob$decoy = NULL
+descriptors = merge(descriptors, prob, by="moleculeID", all.x = TRUE)
+colnames(descriptors)[colnames(descriptors) == "target"] = "PeakDecoderScore"
+descriptors$moleculeID = NULL
+
+hist(descriptors$PeakDecoderScore, 30)
+
+# --------------------------------------------------------------------------------
+# Create final result table:
+outTab = dat[which(dat$ProductName == "precursor"), c("PrecursorName",
+                                                  "Precursor.Mz",
+                                                  "Retention.Time",
+                                                  "Collisional.Cross.Section",
+                                                  "methodCE", 
+                                                  "Replicate",
+                                                  "Total.Area",
+                                                  "SignalToNoise",
+                                                  "Mass.Error.PPM",
+                                                  "RetentionTime.Error",
+                                                  "CCS.Error",
+                                                  "CountDetectedFragments")]
+
+outTab = merge(outTab, descriptors, by=c("PrecursorName", "Replicate"), all.x = TRUE)
+
+# --------------------------------------------------------------------------------
+# Calculate CCS error using MS-Dial results:
+pathToMSdial = "xMSDIAL"
+myPattern = ".+Min20\\.txt$"
+featureFiles = list.files(path=pathToMSdial, pattern = myPattern, full.names = FALSE)
+# iterate each file of features
+for(f in featureFiles)
+{
+
+  feats = read.csv(file = file.path(pathToMSdial, f), sep = "\t", stringsAsFactors = FALSE)
+  feats = feats[which(feats$CCS > 0), ] # remove features without CCS
+  
+  # Find the replicates with a substring contained in the file name (Skyline removed the common prefix and suffix in file names):
+  indexes = which(lapply(outTab$Replicate,function(x) grepl(x,f)) ==  TRUE)
+  
+  for(k in indexes)
+  {
+    x = feats[which(abs(feats$Precursor.m.z - outTab$Precursor.Mz[k]) <= 0.02 & 
+                      abs(feats$RT..min. - outTab$Retention.Time[k]) <= cutoff.RT.Error), ]
+    if(nrow(x) > 0)
+    {
+      minx = which.min(abs(x$CCS - outTab$Collisional.Cross.Section[k]))
+      outTab$CCS.Error[k] = (x$CCS[minx] - outTab$Collisional.Cross.Section[k])/outTab$Collisional.Cross.Section[k] * 100
+    }
+  }
+}
+
+# Apply filtering thresholds:
+outTab$ConfidenceDescription = "None"
+outTab$ConfidenceDescription[which(abs(outTab$Mass.Error.PPM) <= cutoff.Mz.Error &
+                                                    abs(outTab$CCS.Error) <= cutoff.CCS.Error &
+                                                    abs(outTab$RetentionTime.Error) <= cutoff.RT.Error)] = "RT-CCS"
+
+outTab$ConfidenceDescription[which(outTab$PeakDecoderScore >= cutoff.PeakDecoderScore &
+                               outTab$ConfidenceDescription == "RT-CCS")] = "RT-CCS-DIA"
+
+# Exclude "RT-CCS" which have fragments but low combined score:
+outTab$ConfidenceDescription[which((outTab$PeakDecoderScore < cutoff.PeakDecoderScore | is.na(outTab$PeakDecoderScore)) &
+                              outTab$CountDetectedFragments > 0 &
+                              outTab$ConfidenceDescription == "RT-CCS")] = "None"
+
+outUniqueBest = outTab[which(outTab$SignalToNoise > cutoff.SignalToNoise), ]
+outUniqueBest = outUniqueBest[with(outUniqueBest, order(PrecursorName, ConfidenceDescription, -PeakDecoderScore, abs(CCS.Error))), ]
+outUniqueBest = outUniqueBest[!duplicated(outUniqueBest[,c("PrecursorName", "ConfidenceDescription")]),]
+
+# Calculate rank confidence level, take best per metabolite:
+outUniqueBest$ConfidenceLevel = 0 
+outUniqueBest$ConfidenceLevel[grep("RT-CCS", outUniqueBest$ConfidenceDescription)] = 1
+outUniqueBest$ConfidenceLevel[grep("RT-CCS-DIA", outUniqueBest$ConfidenceDescription)] = 2
+outUniqueBest = outUniqueBest[with(outUniqueBest, order(PrecursorName, -ConfidenceLevel, -PeakDecoderScore, abs(CCS.Error))), ]
+outUniqueBest = outUniqueBest[!duplicated(outUniqueBest[,c("PrecursorName")]),]
+
+# Save output table:
+write.csv(outUniqueBest, file = paste("PeakDecoder-InferenceResults_", sampleString, "_", Sys.Date(), ".csv", sep=''), row.names = FALSE)
+
+outUniqueBest = outUniqueBest[which(outUniqueBest$ConfidenceDescription != "None"), ]
+
+# Save number of metabolites per confidence level:
+sink(paste("PeakDecoder-InferenceSummary_", sampleString, "_", Sys.Date(), ".txt", sep=''))
+print("# Unique identified metabolites: ")
+table(outUniqueBest$ConfidenceDescription)
+print("---------------------------------------")
+print("# Total annotated metabolite features: ")
+table(outTab$ConfidenceDescription[which(outTab$ConfidenceDescription != "None")])
+sink() # close output file
+
+
+# Save quantitation table:
+write.csv(outTab[which(outTab$PrecursorName %in% unique(outUniqueBest$PrecursorName)), c("PrecursorName", "Replicate", "Total.Area")], 
+          file = paste("Detected-molecules-quantitation_", sampleString, "_", Sys.Date(), ".csv", sep=''), row.names = FALSE)
+
+# Save all-metrics table:
+write.csv(outTab[which(outTab$PrecursorName %in% unique(outUniqueBest$PrecursorName)), ], 
+          file = paste("Detected-molecules-all-metrics-replicates_", sampleString, "_", Sys.Date(), ".csv", sep=''), row.names = FALSE)
+
+
+# ---------------------------------------------------
+manualIDs = read.csv(file = paste("Detected-metabolites-manual_", sampleString, ".csv", sep=''), stringsAsFactors = FALSE)
+
+print("Metabolites detected manually but missed by PeakDecoder:")
+setdiff(manualIDs$Metabolite, outUniqueBest$PrecursorName)
+
+print("Metabolites detected by PeakDecoder but missed manually:")
+setdiff(outUniqueBest$PrecursorName, manualIDs$Metabolite)

@@ -1,0 +1,408 @@
+PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
+01_malic acid,precursor,133.0142,1144753,20V
+01_malic acid,115ref,115.0026,36497,20V
+01_malic acid,71ref,71.0126,98768,20V
+01_malic acid,72ref,72.9918,43028,20V
+01_malic acid,89ref,89.0231,4205,20V
+03_cis-aconitic acid,precursor,173.0092,675271,20V
+03_cis-aconitic acid,129ref,129.0183,3064,20V
+03_cis-aconitic acid,85ref,85.0283,123444,20V
+04_trans-aconitic acid,precursor,173.0092,785911,20V
+04_trans-aconitic acid,101,101.0256,88401,20V
+04_trans-aconitic acid,117,117.0189,329999,20V
+04_trans-aconitic acid,129ref,129.0173,77836,20V
+04_trans-aconitic acid,154,154.9959,153306,20V
+04_trans-aconitic acid,72,72.9934,536242,20V
+04_trans-aconitic acid,73,73.029,764547,20V
+04_trans-aconitic acid,99,99.0071,102524,20V
+05_isocitric acid,precursor,191.0197,8740784,20V
+05_isocitric acid,111ref,111.0096,2248845,20V
+05_isocitric acid,67,67.0186,178494,20V
+05_isocitric acid,72ref,72.9936,739039,20V
+05_isocitric acid,85,85.0309,1246144,20V
+05_isocitric acid,87,87.0077,183368,20V
+06_citric acid,precursor,191.0197,2795123,20V
+06_citric acid,111ref,111.0077,1118739,20V
+06_citric acid,112,112.0123,97936,20V
+06_citric acid,129ref,129.0181,25664,20V
+06_citric acid,67,67.0186,110860,20V
+06_citric acid,85ref,85.0283,608951,20V
+06_citric acid,87ref,87.0076,788673,20V
+07_succinic acid,precursor,117.0193,136474,20V
+07_succinic acid,73ref,73.0282,16199,20V
+07_succinic acid,99ref,99.0076,339,20V
+11_fumaric acid,precursor,115.0037,116121,20V
+11_fumaric acid,89,89.0224,6439,20V
+13_aspartic acid,precursor,132.0302,2607998,20V
+13_aspartic acid,71ref,71.0151,90304,20V
+13_aspartic acid,72,72.0073,16391,20V
+13_aspartic acid,88ref,88.04,337856,20V
+14_citramalic acid,precursor,147.0299,81052,20V
+14_citramalic acid,103ref,103.0387,905,20V
+14_citramalic acid,129ref,129.0184,227,20V
+14_citramalic acid,85ref,85.0283,7654,20V
+14_citramalic acid,87ref,87.0076,5765,20V
+17_glucose 6-phosphate (G6P),precursor,259.0224,2725144,20V
+17_glucose 6-phosphate (G6P),138ref,138.9788,96690,20V
+17_glucose 6-phosphate (G6P),168ref,168.9899,2413,20V
+17_glucose 6-phosphate (G6P),199ref,199.0011,41467,20V
+17_glucose 6-phosphate (G6P),78ref,78.9579,336110,20V
+17_glucose 6-phosphate (G6P),96ref,96.9685,1126746,20V
+17_glucose 6-phosphate (G6P),98,98.9726,6514,20V
+18_fructose 6-phosphate (F6P),precursor,259.0224,1934830,20V
+18_fructose 6-phosphate (F6P),138,138.9802,85605,20V
+18_fructose 6-phosphate (F6P),78,78.9576,475808,20V
+18_fructose 6-phosphate (F6P),87,87.0069,16111,20V
+18_fructose 6-phosphate (F6P),96,96.9698,797304,20V
+"19_fructose 1,6-diphosphate (F16DP)",precursor,338.9888,10878206,20V
+"19_fructose 1,6-diphosphate (F16DP)",158,158.9253,360291,20V
+"19_fructose 1,6-diphosphate (F16DP)",168ref,168.99,122069,20V
+"19_fructose 1,6-diphosphate (F16DP)",174,174.9564,888532,20V
+"19_fructose 1,6-diphosphate (F16DP)",176,176.9365,746802,20V
+"19_fructose 1,6-diphosphate (F16DP)",241,241.0094,1244971,20V
+"19_fructose 1,6-diphosphate (F16DP)",78ref,78.9578,679898,20V
+"19_fructose 1,6-diphosphate (F16DP)",96ref,96.9685,4813875,20V
+"19_fructose 1,6-diphosphate (F16DP)",precursor,338.9888,12156859,40V
+"19_fructose 1,6-diphosphate (F16DP)",158,158.9253,460035,40V
+"19_fructose 1,6-diphosphate (F16DP)",168ref,168.99,0,40V
+"19_fructose 1,6-diphosphate (F16DP)",174,174.9564,71499,40V
+"19_fructose 1,6-diphosphate (F16DP)",176,176.9365,44535,40V
+"19_fructose 1,6-diphosphate (F16DP)",241,241.0094,23769,40V
+"19_fructose 1,6-diphosphate (F16DP)",78ref,78.9578,3621905,40V
+"19_fructose 1,6-diphosphate (F16DP)",96ref,96.9685,3478983,40V
+20_6-phosphogluconic acid (6PG),precursor,275.0174,1309900,20V
+20_6-phosphogluconic acid (6PG),129,129.0171,50119,20V
+20_6-phosphogluconic acid (6PG),177,177.0368,29611,20V
+20_6-phosphogluconic acid (6PG),195,195.0465,18105,20V
+20_6-phosphogluconic acid (6PG),71,71.0125,16630,20V
+20_6-phosphogluconic acid (6PG),78,78.9584,173946,20V
+20_6-phosphogluconic acid (6PG),85,85.0276,10626,20V
+20_6-phosphogluconic acid (6PG),99,99.0071,35384,20V
+20_6-phosphogluconic acid (6PG),precursor,275.0174,1790014,40V
+20_6-phosphogluconic acid (6PG),129,129.0171,445,40V
+20_6-phosphogluconic acid (6PG),177,177.0368,0,40V
+20_6-phosphogluconic acid (6PG),195,195.0465,0,40V
+20_6-phosphogluconic acid (6PG),71,71.0125,38399,40V
+20_6-phosphogluconic acid (6PG),78,78.9584,574828,40V
+20_6-phosphogluconic acid (6PG),85,85.0276,2373,40V
+20_6-phosphogluconic acid (6PG),99,99.0071,10931,40V
+21_3-phosphoglyceric acid (3PG),precursor,184.9857,40027,20V
+21_3-phosphoglyceric acid (3PG),112,112.0114,2154,20V
+21_3-phosphoglyceric acid (3PG),67,67.0174,1804,20V
+21_3-phosphoglyceric acid (3PG),96,96.9698,14346,20V
+22_quinic acid,precursor,191.0561,2678469,20V
+22_quinic acid,109ref,109.0286,23576,20V
+22_quinic acid,111ref,111.0441,46816,20V
+22_quinic acid,127ref,127.0393,93887,20V
+22_quinic acid,192,192.0595,58224,20V
+22_quinic acid,71ref,71.0126,19279,20V
+22_quinic acid,85ref,85.0283,365921,20V
+22_quinic acid,87ref,87.0077,65494,20V
+22_quinic acid,93ref,93.0335,107572,20V
+23_protocatechuic acid,precursor,153.0193,2772917,20V
+23_protocatechuic acid,108,108.0215,381358,20V
+23_protocatechuic acid,109,109.0277,2020860,20V
+23_protocatechuic acid,110,110.031,143623,20V
+23_protocatechuic acid,136,136.9319,6967,20V
+23_protocatechuic acid,81,81.033,75404,20V
+23_protocatechuic acid,91,91.0174,45024,20V
+24_acetoacetyl-CoA,precursor,850.1291,1097114,20V
+24_acetoacetyl-CoA,407ref,407.9927,8314,20V
+24_acetoacetyl-CoA,419,419.0434,0,20V
+24_acetoacetyl-CoA,668,668.1281,0,20V
+24_acetoacetyl-CoA,686,686.1495,0,20V
+24_acetoacetyl-CoA,766ref,766.1055,188130,20V
+24_acetoacetyl-CoA,767,767.1056,39765,20V
+24_acetoacetyl-CoA,768,768.102,9823,20V
+24_acetoacetyl-CoA,precursor,850.1291,1097324,40V
+24_acetoacetyl-CoA,407ref,407.9927,258763,40V
+24_acetoacetyl-CoA,419,419.0434,148221,40V
+24_acetoacetyl-CoA,668,668.1281,8175,40V
+24_acetoacetyl-CoA,686,686.1495,89143,40V
+24_acetoacetyl-CoA,766ref,766.1055,191426,40V
+24_acetoacetyl-CoA,767,767.1056,45511,40V
+24_acetoacetyl-CoA,768,768.102,10151,40V
+25_HMG-CoA,precursor,910.1502,742797,20V
+25_HMG-CoA,306,306.9982,7434,20V
+25_HMG-CoA,339,339.0768,0,20V
+25_HMG-CoA,407,407.9938,0,20V
+25_HMG-CoA,426,426.0165,0,20V
+25_HMG-CoA,483,483.0966,0,20V
+25_HMG-CoA,812,812.1546,0,20V
+25_HMG-CoA,830,830.1849,0,20V
+25_HMG-CoA,911,911.1511,217962,20V
+25_HMG-CoA,912,912.1534,74631,20V
+25_HMG-CoA,precursor,910.1502,794227,40V
+25_HMG-CoA,306,306.9982,4524,40V
+25_HMG-CoA,339,339.0768,2915,40V
+25_HMG-CoA,407,407.9938,59332,40V
+25_HMG-CoA,426,426.0165,59385,40V
+25_HMG-CoA,483,483.0966,1130,40V
+25_HMG-CoA,812,812.1546,14822,40V
+25_HMG-CoA,830,830.1849,9606,40V
+25_HMG-CoA,911,911.1511,76841,40V
+25_HMG-CoA,912,912.1534,32439,40V
+27_mevalonate-5-phosphate (mev-5P),precursor,227.0326,2460360,20V
+27_mevalonate-5-phosphate (mev-5P),210,210.9985,110,20V
+27_mevalonate-5-phosphate (mev-5P),78,78.9584,455121,20V
+27_mevalonate-5-phosphate (mev-5P),80,80.9621,2373,20V
+27_mevalonate-5-phosphate (mev-5P),96,96.969,970273,20V
+28_mevalonate 5-diphosphate (mev-5PP),precursor,306.9989,11378218,20V
+28_mevalonate 5-diphosphate (mev-5PP),158,158.9474,458284,20V
+28_mevalonate 5-diphosphate (mev-5PP),176,176.9548,850631,20V
+28_mevalonate 5-diphosphate (mev-5PP),209,209.024,486101,20V
+28_mevalonate 5-diphosphate (mev-5PP),78,78.9584,3746361,20V
+28_mevalonate 5-diphosphate (mev-5PP),96,96.9706,1548777,20V
+29_isopentenyl diphosphate (IPP),precursor,244.9986,4167203,20V
+29_isopentenyl diphosphate (IPP),158,158.9254,122748,20V
+29_isopentenyl diphosphate (IPP),226,226.9907,35163,20V
+29_isopentenyl diphosphate (IPP),78,78.9604,2360960,20V
+29_isopentenyl diphosphate (IPP),80,80.9621,14891,20V
+31_geranyl diphopshate (GPP),precursor,313.0612,6176810,20V
+31_geranyl diphopshate (GPP),158,158.9254,250181,20V
+31_geranyl diphopshate (GPP),233,233.0954,37020,20V
+31_geranyl diphopshate (GPP),78,78.9584,3743186,20V
+31_geranyl diphopshate (GPP),80,80.9621,19378,20V
+32_farnesyl diphosphate (FPP),precursor,381.1238,14372621,20V
+32_farnesyl diphosphate (FPP),158,158.9253,609399,20V
+32_farnesyl diphosphate (FPP),363,363.1125,623104,20V
+32_farnesyl diphosphate (FPP),78,78.9584,6078178,20V
+33_geranygeranyl diphosphate (GGPP),precursor,449.1864,6631334,20V
+33_geranygeranyl diphosphate (GGPP),158,158.9253,266578,20V
+33_geranygeranyl diphosphate (GGPP),431,431.1605,272730,20V
+33_geranygeranyl diphosphate (GGPP),78,78.9584,2311787,20V
+33_geranygeranyl diphosphate (GGPP),96,96.9672,608,20V
+35_gluconic acid,precursor,195.051,2779713,20V
+35_gluconic acid,129ref,129.0161,101004,20V
+35_gluconic acid,71ref,71.0127,95353,20V
+35_gluconic acid,75ref,75.0082,699083,20V
+35_gluconic acid,85ref,85.0398,59431,20V
+35_gluconic acid,87ref,87.008,77429,20V
+35_gluconic acid,99ref,99.0062,103809,20V
+36_2-ketogluconic acid,precursor,193.0354,297180,20V
+36_2-ketogluconic acid,103ref,103.0046,37848,20V
+36_2-ketogluconic acid,71,71.0138,13564,20V
+36_2-ketogluconic acid,73,73.0299,1280,20V
+37_ribulose 5-phosphate,precursor,229.0119,379742,20V
+37_ribulose 5-phosphate,138,138.9802,9458,20V
+37_ribulose 5-phosphate,78,78.9584,254033,20V
+37_ribulose 5-phosphate,96,96.9679,210565,20V
+38_ribose 5-phosphate,precursor,229.0119,1198928,20V
+38_ribose 5-phosphate,138ref,138.9792,57807,20V
+38_ribose 5-phosphate,71ref,71.0127,5872,20V
+38_ribose 5-phosphate,78ref,78.9578,295072,20V
+38_ribose 5-phosphate,96ref,96.9685,474737,20V
+39_glutamic acid,precursor,146.0459,326873,20V
+39_glutamic acid,102ref,102.0529,42538,20V
+39_glutamic acid,128ref,128.0329,6760,20V
+41_UDP-glucose,precursor,565.0477,7257410,20V
+41_UDP-glucose,158ref,158.9246,0,20V
+41_UDP-glucose,192ref,192.9905,0,20V
+41_UDP-glucose,211ref,211.001,14027,20V
+41_UDP-glucose,241ref,241.0119,143706,20V
+41_UDP-glucose,272ref,272.9572,0,20V
+41_UDP-glucose,280ref,280.0233,3816,20V
+41_UDP-glucose,323ref,323.0288,3376747,20V
+41_UDP-glucose,384ref,384.9844,125265,20V
+41_UDP-glucose,78ref,78.9578,20375,20V
+41_UDP-glucose,96ref,96.9684,21510,20V
+41_UDP-glucose,precursor,565.0477,6538049,40V
+41_UDP-glucose,158ref,158.9246,292471,40V
+41_UDP-glucose,192ref,192.9905,65336,40V
+41_UDP-glucose,211ref,211.001,246527,40V
+41_UDP-glucose,241ref,241.0119,460721,40V
+41_UDP-glucose,272ref,272.9572,355606,40V
+41_UDP-glucose,280ref,280.0233,144685,40V
+41_UDP-glucose,323ref,323.0288,1015370,40V
+41_UDP-glucose,384ref,384.9844,224242,40V
+41_UDP-glucose,78ref,78.9578,1155934,40V
+41_UDP-glucose,96ref,96.9684,828286,40V
+42_glucose 1-phosphate (G1P),precursor,259.0224,2512725,20V
+42_glucose 1-phosphate (G1P),138ref,138.9792,74376,20V
+42_glucose 1-phosphate (G1P),241ref,241.0118,13152,20V
+42_glucose 1-phosphate (G1P),78ref,78.9578,1233521,20V
+42_glucose 1-phosphate (G1P),96ref,96.9684,144636,20V
+45_dihydroxyacetone phosphate (DHAP),precursor,168.9907,89737,20V
+45_dihydroxyacetone phosphate (DHAP),136,136.9323,17390,20V
+45_dihydroxyacetone phosphate (DHAP),137,137.0363,31260,20V
+45_dihydroxyacetone phosphate (DHAP),96ref,96.9684,38476,20V
+46_glutamine,precursor,145.0619,338083,20V
+46_glutamine,109ref,109.0394,5581,20V
+46_glutamine,127ref,127.0503,13765,20V
+46_glutamine,128ref,128.0341,657,20V
+46_glutamine,74,74.0239,4887,20V
+46_glutamine,84ref,84.0441,9650,20V
+47_xylitol,precursor,151.0612,177959,20V
+47_xylitol,101ref,101.0233,2957,20V
+47_xylitol,71ref,71.0126,34999,20V
+47_xylitol,73ref,73.0282,6288,20V
+47_xylitol,89ref,89.0233,490,20V
+48_trehalose,precursor,341.1089,1974163,20V
+48_trehalose,101,101.0235,131851,20V
+48_trehalose,113,113.0247,82015,20V
+48_trehalose,119,119.0338,45144,20V
+48_trehalose,131,131.0333,4240,20V
+48_trehalose,161,161.0434,2202,20V
+48_trehalose,71,71.0125,163711,20V
+48_trehalose,83,83.0117,9755,20V
+48_trehalose,89,89.0233,197225,20V
+49_phenylalanine,precursor,164.0717,1746911,20V
+49_phenylalanine,103ref,103.0539,192345,20V
+49_phenylalanine,147ref,147.0442,90310,20V
+49_phenylalanine,72ref,72.0078,111622,20V
+49_phenylalanine,87,87.0077,679,20V
+49_phenylalanine,91ref,91.0538,14533,20V
+50_arabitol,precursor,151.0612,259736,20V
+50_arabitol,71ref,71.0116,40091,20V
+50_arabitol,78,78.9606,2536,20V
+50_arabitol,89,89.0233,347,20V
+51_catechol,precursor,109.0295,3530693,20V
+51_catechol,108ref,108.0205,1027832,20V
+51_catechol,110,110.031,93083,20V
+51_catechol,65,65.0034,39903,20V
+51_catechol,81ref,81.0333,79027,20V
+51_catechol,91ref,91.0176,175311,20V
+52_glucose,precursor,179.0561,168472,20V
+52_glucose,113ref,113.0231,11171,20V
+52_glucose,89ref,89.023,35860,20V
+53_erythrose 4-phosphate (E4P),precursor,199.0013,84340,20V
+53_erythrose 4-phosphate (E4P),168,168.9906,9932,20V
+53_erythrose 4-phosphate (E4P),71,71.0125,18996,20V
+53_erythrose 4-phosphate (E4P),98,98.9726,36737,20V
+54_sedoheptulose 7-phosphate (S7P),precursor,289.033,7035695,20V
+54_sedoheptulose 7-phosphate (S7P),111,111.0062,287,20V
+54_sedoheptulose 7-phosphate (S7P),138,138.9781,218205,20V
+54_sedoheptulose 7-phosphate (S7P),198,198.9961,63511,20V
+54_sedoheptulose 7-phosphate (S7P),78,78.9584,748437,20V
+54_sedoheptulose 7-phosphate (S7P),96,96.9679,3304626,20V
+54_sedoheptulose 7-phosphate (S7P),98,98.9726,27032,20V
+55_tryptophan,precursor,203.0826,1380838,20V
+55_tryptophan,116ref,116.0494,243928,20V
+55_tryptophan,142ref,142.0652,76861,20V
+55_tryptophan,159ref,159.0919,8642,20V
+55_tryptophan,72ref,72.0078,4720,20V
+55_tryptophan,74ref,74.0235,116888,20V
+56_glutathione reduced,precursor,306.0765,2519679,20V
+56_glutathione reduced,128ref,128.0342,260074,20V
+56_glutathione reduced,143ref,143.0452,498196,20V
+56_glutathione reduced,153ref,153.0659,33742,20V
+56_glutathione reduced,160ref,160.0065,105697,20V
+56_glutathione reduced,167ref,167.0455,46730,20V
+56_glutathione reduced,179ref,179.0454,109747,20V
+56_glutathione reduced,210ref,210.0882,123121,20V
+56_glutathione reduced,254ref,254.0785,49780,20V
+56_glutathione reduced,74ref,74.0235,45262,20V
+56_glutathione reduced,99ref,99.0552,58708,20V
+57_mannitol,precursor,181.0718,793618,20V
+57_mannitol,101ref,101.0232,29821,20V
+57_mannitol,163ref,163.0602,236,20V
+57_mannitol,71ref,71.0126,102280,20V
+57_mannitol,73ref,73.0282,20628,20V
+57_mannitol,85ref,85.0283,16509,20V
+57_mannitol,89ref,89.0232,18951,20V
+58_uridine,precursor,243.0623,2839023,20V
+58_uridine,108ref,108.0444,10931,20V
+58_uridine,110ref,110.0236,428954,20V
+58_uridine,140ref,140.0343,38316,20V
+58_uridine,152ref,152.0344,62530,20V
+58_uridine,182ref,182.0458,127,20V
+58_uridine,200ref,200.0561,14110,20V
+58_uridine,66ref,66.0336,46571,20V
+58_uridine,82ref,82.0286,78070,20V
+59_adenosine,precursor,266.0895,282185,20V
+59_adenosine,134ref,134.0462,237215,20V
+59_adenosine,135,135.0486,11439,20V
+59_adenosine,140,140.0325,18684,20V
+59_adenosine,200,200.0568,30062,20V
+59_adenosine,82,82.0286,9105,20V
+59_adenosine,87,87.0096,1203,20V
+60_acetyl-CoA,precursor,808.1185,1935575,20V
+60_acetyl-CoA,407ref,407.9927,6468,20V
+60_acetyl-CoA,408ref,408.0151,6468,20V
+60_acetyl-CoA,409,409.0146,0,20V
+60_acetyl-CoA,426ref,426.011,2473,20V
+60_acetyl-CoA,427,427.0208,0,20V
+60_acetyl-CoA,461,461.058,0,20V
+60_acetyl-CoA,462,462.0609,0,20V
+60_acetyl-CoA,479,479.0654,0,20V
+60_acetyl-CoA,728,728.1533,0,20V
+60_acetyl-CoA,78,78.9604,0,20V
+60_acetyl-CoA,precursor,808.1185,2174888,40V
+60_acetyl-CoA,407ref,407.9927,371743,40V
+60_acetyl-CoA,408ref,408.0151,437811,40V
+60_acetyl-CoA,409,409.0146,53865,40V
+60_acetyl-CoA,426ref,426.011,281862,40V
+60_acetyl-CoA,427,427.0208,31690,40V
+60_acetyl-CoA,461,461.058,261451,40V
+60_acetyl-CoA,462,462.0609,32143,40V
+60_acetyl-CoA,479,479.0654,80555,40V
+60_acetyl-CoA,728,728.1533,184875,40V
+60_acetyl-CoA,78,78.9604,23221,40V
+61_malonyl-CoA,precursor,852.1083,179951,20V
+61_malonyl-CoA,328,328.0313,0,20V
+61_malonyl-CoA,407ref,407.9997,1225,20V
+61_malonyl-CoA,408ref,408.0081,1225,20V
+61_malonyl-CoA,409,409.0146,0,20V
+61_malonyl-CoA,461,461.0506,0,20V
+61_malonyl-CoA,479,479.0654,0,20V
+61_malonyl-CoA,766,766.1055,4225,20V
+61_malonyl-CoA,808ref,808.1188,48242,20V
+61_malonyl-CoA,810,810.1064,997,20V
+61_malonyl-CoA,834,834.0825,6847,20V
+61_malonyl-CoA,precursor,852.1083,215926,40V
+61_malonyl-CoA,328,328.0313,3673,40V
+61_malonyl-CoA,407ref,407.9997,46050,40V
+61_malonyl-CoA,408ref,408.0081,47526,40V
+61_malonyl-CoA,409,409.0146,5502,40V
+61_malonyl-CoA,461,461.0506,17885,40V
+61_malonyl-CoA,479,479.0654,10225,40V
+61_malonyl-CoA,766,766.1055,10114,40V
+61_malonyl-CoA,808ref,808.1188,42632,40V
+61_malonyl-CoA,810,810.1064,3253,40V
+61_malonyl-CoA,834,834.0825,2759,40V
+62_succinyl-CoA,precursor,866.124,53972,20V
+62_succinyl-CoA,145,145.0509,0,20V
+62_succinyl-CoA,324,324.1322,0,20V
+62_succinyl-CoA,328,328.0413,0,20V
+62_succinyl-CoA,408ref,408.0075,0,20V
+62_succinyl-CoA,419,419.0406,0,20V
+62_succinyl-CoA,426ref,426.0279,0,20V
+62_succinyl-CoA,79,79.9563,0,20V
+62_succinyl-CoA,867,867.119,23101,20V
+62_succinyl-CoA,868,868.1173,6183,20V
+62_succinyl-CoA,96,96.9698,0,20V
+62_succinyl-CoA,precursor,866.124,45544,40V
+62_succinyl-CoA,145,145.0509,466,40V
+62_succinyl-CoA,324,324.1322,395,40V
+62_succinyl-CoA,328,328.0413,492,40V
+62_succinyl-CoA,408ref,408.0075,10042,40V
+62_succinyl-CoA,419,419.0406,760,40V
+62_succinyl-CoA,426ref,426.0279,5714,40V
+62_succinyl-CoA,79,79.9563,487,40V
+62_succinyl-CoA,867,867.119,1064,40V
+62_succinyl-CoA,868,868.1173,268,40V
+62_succinyl-CoA,96,96.9698,655,40V
+63_uridine monophosphate,precursor,323.0286,3282554,20V
+63_uridine monophosphate,111ref,111.0189,90238,20V
+63_uridine monophosphate,138ref,138.9795,86105,20V
+63_uridine monophosphate,150ref,150.9795,70501,20V
+63_uridine monophosphate,192ref,192.9911,44390,20V
+63_uridine monophosphate,211ref,211.0012,123259,20V
+63_uridine monophosphate,280ref,280.0167,54770,20V
+63_uridine monophosphate,324,324.0264,21052,20V
+63_uridine monophosphate,78ref,78.9577,644871,20V
+63_uridine monophosphate,96ref,96.9684,657772,20V
+63_uridine monophosphate,97,97.0651,262,20V
+63_uridine monophosphate,precursor,323.0286,3248929,40V
+63_uridine monophosphate,111ref,111.0189,134385,40V
+63_uridine monophosphate,138ref,138.9795,4397,40V
+63_uridine monophosphate,150ref,150.9795,3692,40V
+63_uridine monophosphate,192ref,192.9911,0,40V
+63_uridine monophosphate,211ref,211.0012,426,40V
+63_uridine monophosphate,280ref,280.0167,0,40V
+63_uridine monophosphate,324,324.0264,0,40V
+63_uridine monophosphate,78ref,78.9577,1038171,40V
+63_uridine monophosphate,96ref,96.9684,396797,40V
+63_uridine monophosphate,97,97.0651,6796,40V
+64_L-threonine,precursor,118.051,24011,20V
+64_L-threonine,74ref,74.0235,2112,20V

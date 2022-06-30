@@ -1,0 +1,9 @@
+[1] "# Unique identified metabolites: "
+
+    RT-CCS RT-CCS-DIA 
+         6         28 
+[1] "---------------------------------------"
+[1] "# Total annotated metabolite features: "
+
+    RT-CCS RT-CCS-DIA 
+       369        388 
