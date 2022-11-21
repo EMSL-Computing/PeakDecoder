@@ -64,7 +64,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 "19_fructose 1,6-diphosphate (F16DP)",96ref,96.9685,4813875,20V
 "19_fructose 1,6-diphosphate (F16DP)",precursor,338.9888,12156859,40V
 "19_fructose 1,6-diphosphate (F16DP)",158,158.9253,460035,40V
-"19_fructose 1,6-diphosphate (F16DP)",168ref,168.99,0,40V
 "19_fructose 1,6-diphosphate (F16DP)",174,174.9564,71499,40V
 "19_fructose 1,6-diphosphate (F16DP)",176,176.9365,44535,40V
 "19_fructose 1,6-diphosphate (F16DP)",241,241.0094,23769,40V
@@ -80,8 +79,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 20_6-phosphogluconic acid (6PG),99,99.0071,35384,20V
 20_6-phosphogluconic acid (6PG),precursor,275.0174,1790014,40V
 20_6-phosphogluconic acid (6PG),129,129.0171,445,40V
-20_6-phosphogluconic acid (6PG),177,177.0368,0,40V
-20_6-phosphogluconic acid (6PG),195,195.0465,0,40V
 20_6-phosphogluconic acid (6PG),71,71.0125,38399,40V
 20_6-phosphogluconic acid (6PG),78,78.9584,574828,40V
 20_6-phosphogluconic acid (6PG),85,85.0276,2373,40V
@@ -108,9 +105,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 23_protocatechuic acid,91,91.0174,45024,20V
 24_acetoacetyl-CoA,precursor,850.1291,1097114,20V
 24_acetoacetyl-CoA,407ref,407.9927,8314,20V
-24_acetoacetyl-CoA,419,419.0434,0,20V
-24_acetoacetyl-CoA,668,668.1281,0,20V
-24_acetoacetyl-CoA,686,686.1495,0,20V
 24_acetoacetyl-CoA,766ref,766.1055,188130,20V
 24_acetoacetyl-CoA,767,767.1056,39765,20V
 24_acetoacetyl-CoA,768,768.102,9823,20V
@@ -124,12 +118,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 24_acetoacetyl-CoA,768,768.102,10151,40V
 25_HMG-CoA,precursor,910.1502,742797,20V
 25_HMG-CoA,306,306.9982,7434,20V
-25_HMG-CoA,339,339.0768,0,20V
-25_HMG-CoA,407,407.9938,0,20V
-25_HMG-CoA,426,426.0165,0,20V
-25_HMG-CoA,483,483.0966,0,20V
-25_HMG-CoA,812,812.1546,0,20V
-25_HMG-CoA,830,830.1849,0,20V
 25_HMG-CoA,911,911.1511,217962,20V
 25_HMG-CoA,912,912.1534,74631,20V
 25_HMG-CoA,precursor,910.1502,794227,40V
@@ -176,7 +164,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 35_gluconic acid,129ref,129.0161,101004,20V
 35_gluconic acid,71ref,71.0127,95353,20V
 35_gluconic acid,75ref,75.0082,699083,20V
-35_gluconic acid,85ref,85.0398,59431,20V
 35_gluconic acid,87ref,87.008,77429,20V
 35_gluconic acid,99ref,99.0062,103809,20V
 36_2-ketogluconic acid,precursor,193.0354,297180,20V
@@ -196,11 +183,8 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 39_glutamic acid,102ref,102.0529,42538,20V
 39_glutamic acid,128ref,128.0329,6760,20V
 41_UDP-glucose,precursor,565.0477,7257410,20V
-41_UDP-glucose,158ref,158.9246,0,20V
-41_UDP-glucose,192ref,192.9905,0,20V
 41_UDP-glucose,211ref,211.001,14027,20V
 41_UDP-glucose,241ref,241.0119,143706,20V
-41_UDP-glucose,272ref,272.9572,0,20V
 41_UDP-glucose,280ref,280.0233,3816,20V
 41_UDP-glucose,323ref,323.0288,3376747,20V
 41_UDP-glucose,384ref,384.9844,125265,20V
@@ -223,7 +207,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 42_glucose 1-phosphate (G1P),78ref,78.9578,1233521,20V
 42_glucose 1-phosphate (G1P),96ref,96.9684,144636,20V
 45_dihydroxyacetone phosphate (DHAP),precursor,168.9907,89737,20V
-45_dihydroxyacetone phosphate (DHAP),136,136.9323,17390,20V
 45_dihydroxyacetone phosphate (DHAP),137,137.0363,31260,20V
 45_dihydroxyacetone phosphate (DHAP),96ref,96.9684,38476,20V
 46_glutamine,precursor,145.0619,338083,20V
@@ -279,8 +262,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 55_tryptophan,precursor,203.0826,1380838,20V
 55_tryptophan,116ref,116.0494,243928,20V
 55_tryptophan,142ref,142.0652,76861,20V
-55_tryptophan,159ref,159.0919,8642,20V
-55_tryptophan,72ref,72.0078,4720,20V
 55_tryptophan,74ref,74.0235,116888,20V
 56_glutathione reduced,precursor,306.0765,2519679,20V
 56_glutathione reduced,128ref,128.0342,260074,20V
@@ -295,7 +276,6 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 56_glutathione reduced,99ref,99.0552,58708,20V
 57_mannitol,precursor,181.0718,793618,20V
 57_mannitol,101ref,101.0232,29821,20V
-57_mannitol,163ref,163.0602,236,20V
 57_mannitol,71ref,71.0126,102280,20V
 57_mannitol,73ref,73.0282,20628,20V
 57_mannitol,85ref,85.0283,16509,20V
@@ -317,18 +297,9 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 59_adenosine,82,82.0286,9105,20V
 59_adenosine,87,87.0096,1203,20V
 60_acetyl-CoA,precursor,808.1185,1935575,20V
-60_acetyl-CoA,407ref,407.9927,6468,20V
 60_acetyl-CoA,408ref,408.0151,6468,20V
-60_acetyl-CoA,409,409.0146,0,20V
 60_acetyl-CoA,426ref,426.011,2473,20V
-60_acetyl-CoA,427,427.0208,0,20V
-60_acetyl-CoA,461,461.058,0,20V
-60_acetyl-CoA,462,462.0609,0,20V
-60_acetyl-CoA,479,479.0654,0,20V
-60_acetyl-CoA,728,728.1533,0,20V
-60_acetyl-CoA,78,78.9604,0,20V
 60_acetyl-CoA,precursor,808.1185,2174888,40V
-60_acetyl-CoA,407ref,407.9927,371743,40V
 60_acetyl-CoA,408ref,408.0151,437811,40V
 60_acetyl-CoA,409,409.0146,53865,40V
 60_acetyl-CoA,426ref,426.011,281862,40V
@@ -339,19 +310,13 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 60_acetyl-CoA,728,728.1533,184875,40V
 60_acetyl-CoA,78,78.9604,23221,40V
 61_malonyl-CoA,precursor,852.1083,179951,20V
-61_malonyl-CoA,328,328.0313,0,20V
-61_malonyl-CoA,407ref,407.9997,1225,20V
 61_malonyl-CoA,408ref,408.0081,1225,20V
-61_malonyl-CoA,409,409.0146,0,20V
-61_malonyl-CoA,461,461.0506,0,20V
-61_malonyl-CoA,479,479.0654,0,20V
 61_malonyl-CoA,766,766.1055,4225,20V
 61_malonyl-CoA,808ref,808.1188,48242,20V
 61_malonyl-CoA,810,810.1064,997,20V
 61_malonyl-CoA,834,834.0825,6847,20V
 61_malonyl-CoA,precursor,852.1083,215926,40V
 61_malonyl-CoA,328,328.0313,3673,40V
-61_malonyl-CoA,407ref,407.9997,46050,40V
 61_malonyl-CoA,408ref,408.0081,47526,40V
 61_malonyl-CoA,409,409.0146,5502,40V
 61_malonyl-CoA,461,461.0506,17885,40V
@@ -361,16 +326,8 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 61_malonyl-CoA,810,810.1064,3253,40V
 61_malonyl-CoA,834,834.0825,2759,40V
 62_succinyl-CoA,precursor,866.124,53972,20V
-62_succinyl-CoA,145,145.0509,0,20V
-62_succinyl-CoA,324,324.1322,0,20V
-62_succinyl-CoA,328,328.0413,0,20V
-62_succinyl-CoA,408ref,408.0075,0,20V
-62_succinyl-CoA,419,419.0406,0,20V
-62_succinyl-CoA,426ref,426.0279,0,20V
-62_succinyl-CoA,79,79.9563,0,20V
 62_succinyl-CoA,867,867.119,23101,20V
 62_succinyl-CoA,868,868.1173,6183,20V
-62_succinyl-CoA,96,96.9698,0,20V
 62_succinyl-CoA,precursor,866.124,45544,40V
 62_succinyl-CoA,145,145.0509,466,40V
 62_succinyl-CoA,324,324.1322,395,40V
@@ -392,17 +349,12 @@ PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
 63_uridine monophosphate,324,324.0264,21052,20V
 63_uridine monophosphate,78ref,78.9577,644871,20V
 63_uridine monophosphate,96ref,96.9684,657772,20V
-63_uridine monophosphate,97,97.0651,262,20V
 63_uridine monophosphate,precursor,323.0286,3248929,40V
 63_uridine monophosphate,111ref,111.0189,134385,40V
 63_uridine monophosphate,138ref,138.9795,4397,40V
 63_uridine monophosphate,150ref,150.9795,3692,40V
-63_uridine monophosphate,192ref,192.9911,0,40V
 63_uridine monophosphate,211ref,211.0012,426,40V
-63_uridine monophosphate,280ref,280.0167,0,40V
-63_uridine monophosphate,324,324.0264,0,40V
 63_uridine monophosphate,78ref,78.9577,1038171,40V
 63_uridine monophosphate,96ref,96.9684,396797,40V
-63_uridine monophosphate,97,97.0651,6796,40V
 64_L-threonine,precursor,118.051,24011,20V
 64_L-threonine,74ref,74.0235,2112,20V
