@@ -25,16 +25,18 @@ cutoff.PeakDecoderScore = 0.8 #
 #inputFileSamples = "Skyline-Report_Pput_IMS_MS1-and-MSMS.csv"
 #cutoff.PeakDecoderScore = 0.96 # 1% FDR
 
-#setwd(file.path(basePathData,"data/Rhodo"))
-#inputFileSamples = "Skyline-Report_Rhodo_IMS_MS1-and-MSMS.csv"
-#cutoff.PeakDecoderScore = 0.9 # 3% FDR
+# setwd(file.path(basePathData,"data/Rhodo"))
+# inputFileSamples = "Skyline-Report_Rhodo_IMS_MS1-and-MSMS.csv"
+# #inputFileSamples = "Skyline-Report_Rhodo-trypD5_IMS_MS1-and-MSMS.csv"
+# #cutoff.PeakDecoderScore = 0.9 # 3% FDR
+# cutoff.PeakDecoderScore = 0.96 # 1% FDR
 
 sampleString = basename(getwd())
 
 # Thresholds to consider molecules as identified in at least one sample:
 cutoff.Mz.Error = 18 # precursor mass tolerance, ppm
 cutoff.RT.Error = 0.3 # minutes
-cutoff.CCS.Error = 1 # percent
+cutoff.CCS.Error = 0.8 # percent
 cutoff.SignalToNoise = 2
 
 
@@ -90,6 +92,7 @@ dat$methodCE = "20V"
 dat$methodCE[grepl("_40V", dat$Replicate)] = "40V"
 
 dat = merge(dat, ms2lib, by=c("PrecursorName", "ProductName", "methodCE"), all.x = TRUE)
+dat = dat[!(is.na(dat$LibraryIntensity) & dat$ProductName != "precursor"), ] # remove fragments that were not mapped to the library
 
 # Update intensity ranks:
 dat$PrecursorName.Replicate = paste(dat$PrecursorName, dat$Replicate, sep = '.')
@@ -191,7 +194,7 @@ for(f in featureFiles)
   
   for(k in indexes)
   {
-    x = feats[which(abs(feats$Precursor.m.z - outTab$Precursor.Mz[k]) <= 0.02 & 
+    x = feats[which(abs(feats$Precursor.m.z - outTab$Precursor.Mz[k]) <= 0.3 & # Use a larger tolerance because MSDIAL does not process well saturated peaks 
                       abs(feats$RT..min. - outTab$Retention.Time[k]) <= cutoff.RT.Error), ]
     if(nrow(x) > 0)
     {
@@ -202,6 +205,9 @@ for(f in featureFiles)
 }
 
 # Apply filtering thresholds:
+outTab$Mass.Error.PPM = round(outTab$Mass.Error.PPM, 2)
+outTab$CCS.Error = round(outTab$CCS.Error, 2)
+outTab$RetentionTime.Error = round(outTab$RetentionTime.Error, 2)
 outTab$ConfidenceDescription = "None"
 outTab$ConfidenceDescription[which(abs(outTab$Mass.Error.PPM) <= cutoff.Mz.Error &
                                                     abs(outTab$CCS.Error) <= cutoff.CCS.Error &
@@ -210,10 +216,11 @@ outTab$ConfidenceDescription[which(abs(outTab$Mass.Error.PPM) <= cutoff.Mz.Error
 outTab$ConfidenceDescription[which(outTab$PeakDecoderScore >= cutoff.PeakDecoderScore &
                                outTab$ConfidenceDescription == "RT-CCS")] = "RT-CCS-DIA"
 
-# Exclude "RT-CCS" which have fragments but low combined score:
-outTab$ConfidenceDescription[which((outTab$PeakDecoderScore < cutoff.PeakDecoderScore | is.na(outTab$PeakDecoderScore)) &
-                              outTab$CountDetectedFragments > 0 &
-                              outTab$ConfidenceDescription == "RT-CCS")] = "None"
+# Exclude "RT-CCS" of replicates which have fragments but PeakDecoderScore is below threshold, PDS < cutoff.PeakDecoderScore:
+indexesLowPDS = which((outTab$PeakDecoderScore < cutoff.PeakDecoderScore | is.na(outTab$PeakDecoderScore)) &
+                        outTab$CountDetectedFragments > 0 &
+                        outTab$ConfidenceDescription == "RT-CCS")
+outTab$ConfidenceDescription[indexesLowPDS] = "None"
 
 outUniqueBest = outTab[which(outTab$SignalToNoise > cutoff.SignalToNoise), ]
 outUniqueBest = outUniqueBest[with(outUniqueBest, order(PrecursorName, ConfidenceDescription, -PeakDecoderScore, abs(CCS.Error))), ]
@@ -248,6 +255,10 @@ write.csv(outTab[which(outTab$PrecursorName %in% unique(outUniqueBest$PrecursorN
 # Save all-metrics table:
 write.csv(outTab[which(outTab$PrecursorName %in% unique(outUniqueBest$PrecursorName)), ], 
           file = paste("Detected-molecules-all-metrics-replicates_", sampleString, "_", Sys.Date(), ".csv", sep=''), row.names = FALSE)
+
+# Save all-metrics ALL targets table:
+write.csv(outTab, 
+          file = paste("All-targets-all-metrics-replicates_", sampleString, "_", Sys.Date(), ".csv", sep=''), row.names = FALSE)
 
 
 # ---------------------------------------------------

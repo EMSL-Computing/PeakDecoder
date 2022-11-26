@@ -1,0 +1,815 @@
+"PrecursorName","Replicate","Total.Area"
+"01_malic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",93656
+"01_malic acid","CJ019_WT_IMS_5ul_R1_01_40V",67344
+"01_malic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",126271
+"01_malic acid","CJ019_WT_IMS_5ul_R2_02_40V",78963
+"01_malic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",86395
+"01_malic acid","CJ019_WT_IMS_5ul_R3_03_40V",79721
+"01_malic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",379280
+"01_malic acid","Muck_1642_IMS_5ul_R2_05_40V",315115
+"01_malic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",219878
+"01_malic acid","Muck_1642_IMS_5ul_R3_06_40V",155342
+"01_malic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",291286
+"01_malic acid","Muck_2224_IMS_5ul_R1_07_40V",188339
+"01_malic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",264889
+"01_malic acid","Muck_2224_IMS_5ul_R2_08_40V",237139
+"01_malic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",250099
+"01_malic acid","Muck_2224_IMS_5ul_R3_09_40V",183066
+"01_malic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",207562
+"01_malic acid","Muck_5042_IMS_5ul_R1_10_40V",163608
+"01_malic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",145799
+"01_malic acid","Muck_5042_IMS_5ul_R2_11_40V",85651
+"01_malic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",124126
+"01_malic acid","Muck_5042_IMS_5ul_R3_12_40V",61569
+"05_isocitric acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",6662249
+"05_isocitric acid","CJ019_WT_IMS_5ul_R1_01_40V",4551509
+"05_isocitric acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",7889477
+"05_isocitric acid","CJ019_WT_IMS_5ul_R2_02_40V",4836188
+"05_isocitric acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",3969863
+"05_isocitric acid","CJ019_WT_IMS_5ul_R3_03_40V",2096087
+"05_isocitric acid","Muck_1642_IMS_5ul_R2_05_20V_redo",1569550
+"05_isocitric acid","Muck_1642_IMS_5ul_R2_05_40V",1056384
+"05_isocitric acid","Muck_1642_IMS_5ul_R3_06_20V_redo",733437
+"05_isocitric acid","Muck_1642_IMS_5ul_R3_06_40V",541964
+"05_isocitric acid","Muck_2224_IMS_5ul_R1_07_20V_redo",1036181
+"05_isocitric acid","Muck_2224_IMS_5ul_R1_07_40V",673250
+"05_isocitric acid","Muck_2224_IMS_5ul_R2_08_20V_redo",1326476
+"05_isocitric acid","Muck_2224_IMS_5ul_R2_08_40V",812227
+"05_isocitric acid","Muck_2224_IMS_5ul_R3_09_20V_redo",714524
+"05_isocitric acid","Muck_2224_IMS_5ul_R3_09_40V",375885
+"05_isocitric acid","Muck_5042_IMS_5ul_R1_10_20V_redo",965482
+"05_isocitric acid","Muck_5042_IMS_5ul_R1_10_40V",537816
+"05_isocitric acid","Muck_5042_IMS_5ul_R2_11_20V_redo",347728
+"05_isocitric acid","Muck_5042_IMS_5ul_R2_11_40V",302995
+"05_isocitric acid","Muck_5042_IMS_5ul_R3_12_20V_redo",299808
+"05_isocitric acid","Muck_5042_IMS_5ul_R3_12_40V",277189
+"06_citric acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",1152055
+"06_citric acid","CJ019_WT_IMS_5ul_R1_01_40V",673260
+"06_citric acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",1266298
+"06_citric acid","CJ019_WT_IMS_5ul_R2_02_40V",810680
+"06_citric acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",1212335
+"06_citric acid","CJ019_WT_IMS_5ul_R3_03_40V",638667
+"06_citric acid","Muck_1642_IMS_5ul_R2_05_20V_redo",1831670
+"06_citric acid","Muck_1642_IMS_5ul_R2_05_40V",1057742
+"06_citric acid","Muck_1642_IMS_5ul_R3_06_20V_redo",1467099
+"06_citric acid","Muck_1642_IMS_5ul_R3_06_40V",1127362
+"06_citric acid","Muck_2224_IMS_5ul_R1_07_20V_redo",1670953
+"06_citric acid","Muck_2224_IMS_5ul_R1_07_40V",1108775
+"06_citric acid","Muck_2224_IMS_5ul_R2_08_20V_redo",1821506
+"06_citric acid","Muck_2224_IMS_5ul_R2_08_40V",1029545
+"06_citric acid","Muck_2224_IMS_5ul_R3_09_20V_redo",1839193
+"06_citric acid","Muck_2224_IMS_5ul_R3_09_40V",719009
+"06_citric acid","Muck_5042_IMS_5ul_R1_10_20V_redo",1045378
+"06_citric acid","Muck_5042_IMS_5ul_R1_10_40V",546379
+"06_citric acid","Muck_5042_IMS_5ul_R2_11_20V_redo",1216958
+"06_citric acid","Muck_5042_IMS_5ul_R2_11_40V",845391
+"06_citric acid","Muck_5042_IMS_5ul_R3_12_20V_redo",1504270
+"06_citric acid","Muck_5042_IMS_5ul_R3_12_40V",724141
+"07_succinic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",370082
+"07_succinic acid","CJ019_WT_IMS_5ul_R1_01_40V",370333
+"07_succinic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",358984
+"07_succinic acid","CJ019_WT_IMS_5ul_R2_02_40V",286542
+"07_succinic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",399168
+"07_succinic acid","CJ019_WT_IMS_5ul_R3_03_40V",294992
+"07_succinic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",736559
+"07_succinic acid","Muck_1642_IMS_5ul_R2_05_40V",556495
+"07_succinic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",442050
+"07_succinic acid","Muck_1642_IMS_5ul_R3_06_40V",356929
+"07_succinic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",579704
+"07_succinic acid","Muck_2224_IMS_5ul_R1_07_40V",560316
+"07_succinic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",670492
+"07_succinic acid","Muck_2224_IMS_5ul_R2_08_40V",568619
+"07_succinic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",595363
+"07_succinic acid","Muck_2224_IMS_5ul_R3_09_40V",506871
+"07_succinic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",461287
+"07_succinic acid","Muck_5042_IMS_5ul_R1_10_40V",387626
+"07_succinic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",229902
+"07_succinic acid","Muck_5042_IMS_5ul_R2_11_40V",157569
+"07_succinic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",198461
+"07_succinic acid","Muck_5042_IMS_5ul_R3_12_40V",150726
+"08_alpha-ketoglutaric acid (aKG)","CJ019_WT_IMS_5ul_R1_01_20V_redo",2030
+"08_alpha-ketoglutaric acid (aKG)","CJ019_WT_IMS_5ul_R1_01_40V",7737
+"08_alpha-ketoglutaric acid (aKG)","CJ019_WT_IMS_5ul_R2_02_20V_redo",NA
+"08_alpha-ketoglutaric acid (aKG)","CJ019_WT_IMS_5ul_R2_02_40V",452
+"08_alpha-ketoglutaric acid (aKG)","CJ019_WT_IMS_5ul_R3_03_20V_redo",NA
+"08_alpha-ketoglutaric acid (aKG)","CJ019_WT_IMS_5ul_R3_03_40V",1469
+"08_alpha-ketoglutaric acid (aKG)","Muck_1642_IMS_5ul_R2_05_20V_redo",4181
+"08_alpha-ketoglutaric acid (aKG)","Muck_1642_IMS_5ul_R2_05_40V",8853
+"08_alpha-ketoglutaric acid (aKG)","Muck_1642_IMS_5ul_R3_06_20V_redo",4440
+"08_alpha-ketoglutaric acid (aKG)","Muck_1642_IMS_5ul_R3_06_40V",5545
+"08_alpha-ketoglutaric acid (aKG)","Muck_2224_IMS_5ul_R1_07_20V_redo",2691
+"08_alpha-ketoglutaric acid (aKG)","Muck_2224_IMS_5ul_R1_07_40V",5618
+"08_alpha-ketoglutaric acid (aKG)","Muck_2224_IMS_5ul_R2_08_20V_redo",4332
+"08_alpha-ketoglutaric acid (aKG)","Muck_2224_IMS_5ul_R2_08_40V",8020
+"08_alpha-ketoglutaric acid (aKG)","Muck_2224_IMS_5ul_R3_09_20V_redo",7855
+"08_alpha-ketoglutaric acid (aKG)","Muck_2224_IMS_5ul_R3_09_40V",4449
+"08_alpha-ketoglutaric acid (aKG)","Muck_5042_IMS_5ul_R1_10_20V_redo",4682
+"08_alpha-ketoglutaric acid (aKG)","Muck_5042_IMS_5ul_R1_10_40V",2301
+"08_alpha-ketoglutaric acid (aKG)","Muck_5042_IMS_5ul_R2_11_20V_redo",162
+"08_alpha-ketoglutaric acid (aKG)","Muck_5042_IMS_5ul_R2_11_40V",2796
+"08_alpha-ketoglutaric acid (aKG)","Muck_5042_IMS_5ul_R3_12_20V_redo",1801
+"08_alpha-ketoglutaric acid (aKG)","Muck_5042_IMS_5ul_R3_12_40V",2804
+"09_lactic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",220366
+"09_lactic acid","CJ019_WT_IMS_5ul_R1_01_40V",243023
+"09_lactic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",233475
+"09_lactic acid","CJ019_WT_IMS_5ul_R2_02_40V",208974
+"09_lactic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",268472
+"09_lactic acid","CJ019_WT_IMS_5ul_R3_03_40V",242819
+"09_lactic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",160335
+"09_lactic acid","Muck_1642_IMS_5ul_R2_05_40V",214458
+"09_lactic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",171748
+"09_lactic acid","Muck_1642_IMS_5ul_R3_06_40V",148199
+"09_lactic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",124683
+"09_lactic acid","Muck_2224_IMS_5ul_R1_07_40V",152782
+"09_lactic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",123630
+"09_lactic acid","Muck_2224_IMS_5ul_R2_08_40V",114092
+"09_lactic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",134292
+"09_lactic acid","Muck_2224_IMS_5ul_R3_09_40V",115423
+"09_lactic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",136598
+"09_lactic acid","Muck_5042_IMS_5ul_R1_10_40V",145814
+"09_lactic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",85552
+"09_lactic acid","Muck_5042_IMS_5ul_R2_11_40V",67342
+"09_lactic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",88931
+"09_lactic acid","Muck_5042_IMS_5ul_R3_12_40V",94332
+"11_fumaric acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",18590
+"11_fumaric acid","CJ019_WT_IMS_5ul_R1_01_40V",15805
+"11_fumaric acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",17833
+"11_fumaric acid","CJ019_WT_IMS_5ul_R2_02_40V",15583
+"11_fumaric acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",26196
+"11_fumaric acid","CJ019_WT_IMS_5ul_R3_03_40V",18579
+"11_fumaric acid","Muck_1642_IMS_5ul_R2_05_20V_redo",45204
+"11_fumaric acid","Muck_1642_IMS_5ul_R2_05_40V",38974
+"11_fumaric acid","Muck_1642_IMS_5ul_R3_06_20V_redo",35486
+"11_fumaric acid","Muck_1642_IMS_5ul_R3_06_40V",30028
+"11_fumaric acid","Muck_2224_IMS_5ul_R1_07_20V_redo",32754
+"11_fumaric acid","Muck_2224_IMS_5ul_R1_07_40V",29897
+"11_fumaric acid","Muck_2224_IMS_5ul_R2_08_20V_redo",33839
+"11_fumaric acid","Muck_2224_IMS_5ul_R2_08_40V",51743
+"11_fumaric acid","Muck_2224_IMS_5ul_R3_09_20V_redo",32120
+"11_fumaric acid","Muck_2224_IMS_5ul_R3_09_40V",32055
+"11_fumaric acid","Muck_5042_IMS_5ul_R1_10_20V_redo",34910
+"11_fumaric acid","Muck_5042_IMS_5ul_R1_10_40V",34120
+"11_fumaric acid","Muck_5042_IMS_5ul_R2_11_20V_redo",47418
+"11_fumaric acid","Muck_5042_IMS_5ul_R2_11_40V",36474
+"11_fumaric acid","Muck_5042_IMS_5ul_R3_12_20V_redo",38792
+"11_fumaric acid","Muck_5042_IMS_5ul_R3_12_40V",32871
+"12_pyruvic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",0
+"12_pyruvic acid","CJ019_WT_IMS_5ul_R1_01_40V",0
+"12_pyruvic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",0
+"12_pyruvic acid","CJ019_WT_IMS_5ul_R2_02_40V",0
+"12_pyruvic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",0
+"12_pyruvic acid","CJ019_WT_IMS_5ul_R3_03_40V",0
+"12_pyruvic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",10213
+"12_pyruvic acid","Muck_1642_IMS_5ul_R2_05_40V",10422
+"12_pyruvic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",6161
+"12_pyruvic acid","Muck_1642_IMS_5ul_R3_06_40V",2241
+"12_pyruvic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",825
+"12_pyruvic acid","Muck_2224_IMS_5ul_R1_07_40V",3893
+"12_pyruvic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",8800
+"12_pyruvic acid","Muck_2224_IMS_5ul_R2_08_40V",5426
+"12_pyruvic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",10082
+"12_pyruvic acid","Muck_2224_IMS_5ul_R3_09_40V",9053
+"12_pyruvic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",5618
+"12_pyruvic acid","Muck_5042_IMS_5ul_R1_10_40V",5260
+"12_pyruvic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",4032
+"12_pyruvic acid","Muck_5042_IMS_5ul_R2_11_40V",1902
+"12_pyruvic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",1110
+"12_pyruvic acid","Muck_5042_IMS_5ul_R3_12_40V",4305
+"13_aspartic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",1442903
+"13_aspartic acid","CJ019_WT_IMS_5ul_R1_01_40V",1269626
+"13_aspartic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",1620309
+"13_aspartic acid","CJ019_WT_IMS_5ul_R2_02_40V",1295296
+"13_aspartic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",1501247
+"13_aspartic acid","CJ019_WT_IMS_5ul_R3_03_40V",1371270
+"13_aspartic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",2455684
+"13_aspartic acid","Muck_1642_IMS_5ul_R2_05_40V",2045593
+"13_aspartic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",2845814
+"13_aspartic acid","Muck_1642_IMS_5ul_R3_06_40V",2367409
+"13_aspartic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",2647875
+"13_aspartic acid","Muck_2224_IMS_5ul_R1_07_40V",2254000
+"13_aspartic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",2557034
+"13_aspartic acid","Muck_2224_IMS_5ul_R2_08_40V",2240836
+"13_aspartic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",2667426
+"13_aspartic acid","Muck_2224_IMS_5ul_R3_09_40V",2182455
+"13_aspartic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",3052550
+"13_aspartic acid","Muck_5042_IMS_5ul_R1_10_40V",2537152
+"13_aspartic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",2846325
+"13_aspartic acid","Muck_5042_IMS_5ul_R2_11_40V",2447305
+"13_aspartic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",2811373
+"13_aspartic acid","Muck_5042_IMS_5ul_R3_12_40V",2443911
+"15_glyceraldehyde-3-P (G3P)","CJ019_WT_IMS_5ul_R1_01_20V_redo",65047
+"15_glyceraldehyde-3-P (G3P)","CJ019_WT_IMS_5ul_R1_01_40V",58654
+"15_glyceraldehyde-3-P (G3P)","CJ019_WT_IMS_5ul_R2_02_20V_redo",50635
+"15_glyceraldehyde-3-P (G3P)","CJ019_WT_IMS_5ul_R2_02_40V",55182
+"15_glyceraldehyde-3-P (G3P)","CJ019_WT_IMS_5ul_R3_03_20V_redo",59092
+"15_glyceraldehyde-3-P (G3P)","CJ019_WT_IMS_5ul_R3_03_40V",64760
+"15_glyceraldehyde-3-P (G3P)","Muck_1642_IMS_5ul_R2_05_20V_redo",11553
+"15_glyceraldehyde-3-P (G3P)","Muck_1642_IMS_5ul_R2_05_40V",5704
+"15_glyceraldehyde-3-P (G3P)","Muck_1642_IMS_5ul_R3_06_20V_redo",14427
+"15_glyceraldehyde-3-P (G3P)","Muck_1642_IMS_5ul_R3_06_40V",20019
+"15_glyceraldehyde-3-P (G3P)","Muck_2224_IMS_5ul_R1_07_20V_redo",15505
+"15_glyceraldehyde-3-P (G3P)","Muck_2224_IMS_5ul_R1_07_40V",11624
+"15_glyceraldehyde-3-P (G3P)","Muck_2224_IMS_5ul_R2_08_20V_redo",10657
+"15_glyceraldehyde-3-P (G3P)","Muck_2224_IMS_5ul_R2_08_40V",11352
+"15_glyceraldehyde-3-P (G3P)","Muck_2224_IMS_5ul_R3_09_20V_redo",21218
+"15_glyceraldehyde-3-P (G3P)","Muck_2224_IMS_5ul_R3_09_40V",8532
+"15_glyceraldehyde-3-P (G3P)","Muck_5042_IMS_5ul_R1_10_20V_redo",14590
+"15_glyceraldehyde-3-P (G3P)","Muck_5042_IMS_5ul_R1_10_40V",21693
+"15_glyceraldehyde-3-P (G3P)","Muck_5042_IMS_5ul_R2_11_20V_redo",6408
+"15_glyceraldehyde-3-P (G3P)","Muck_5042_IMS_5ul_R2_11_40V",13678
+"15_glyceraldehyde-3-P (G3P)","Muck_5042_IMS_5ul_R3_12_20V_redo",10771
+"15_glyceraldehyde-3-P (G3P)","Muck_5042_IMS_5ul_R3_12_40V",4836
+"16_phosphoenolpyruvate (PEP)","CJ019_WT_IMS_5ul_R1_01_20V_redo",310158
+"16_phosphoenolpyruvate (PEP)","CJ019_WT_IMS_5ul_R1_01_40V",262106
+"16_phosphoenolpyruvate (PEP)","CJ019_WT_IMS_5ul_R2_02_20V_redo",265043
+"16_phosphoenolpyruvate (PEP)","CJ019_WT_IMS_5ul_R2_02_40V",229844
+"16_phosphoenolpyruvate (PEP)","CJ019_WT_IMS_5ul_R3_03_20V_redo",218323
+"16_phosphoenolpyruvate (PEP)","CJ019_WT_IMS_5ul_R3_03_40V",220811
+"16_phosphoenolpyruvate (PEP)","Muck_1642_IMS_5ul_R2_05_20V_redo",163403
+"16_phosphoenolpyruvate (PEP)","Muck_1642_IMS_5ul_R2_05_40V",147250
+"16_phosphoenolpyruvate (PEP)","Muck_1642_IMS_5ul_R3_06_20V_redo",161733
+"16_phosphoenolpyruvate (PEP)","Muck_1642_IMS_5ul_R3_06_40V",165222
+"16_phosphoenolpyruvate (PEP)","Muck_2224_IMS_5ul_R1_07_20V_redo",155181
+"16_phosphoenolpyruvate (PEP)","Muck_2224_IMS_5ul_R1_07_40V",155517
+"16_phosphoenolpyruvate (PEP)","Muck_2224_IMS_5ul_R2_08_20V_redo",160096
+"16_phosphoenolpyruvate (PEP)","Muck_2224_IMS_5ul_R2_08_40V",154230
+"16_phosphoenolpyruvate (PEP)","Muck_2224_IMS_5ul_R3_09_20V_redo",87107
+"16_phosphoenolpyruvate (PEP)","Muck_2224_IMS_5ul_R3_09_40V",97450
+"16_phosphoenolpyruvate (PEP)","Muck_5042_IMS_5ul_R1_10_20V_redo",140727
+"16_phosphoenolpyruvate (PEP)","Muck_5042_IMS_5ul_R1_10_40V",118953
+"16_phosphoenolpyruvate (PEP)","Muck_5042_IMS_5ul_R2_11_20V_redo",83787
+"16_phosphoenolpyruvate (PEP)","Muck_5042_IMS_5ul_R2_11_40V",89614
+"16_phosphoenolpyruvate (PEP)","Muck_5042_IMS_5ul_R3_12_20V_redo",81443
+"16_phosphoenolpyruvate (PEP)","Muck_5042_IMS_5ul_R3_12_40V",63421
+"17_glucose 6-phosphate (G6P)","CJ019_WT_IMS_5ul_R1_01_20V_redo",15358704
+"17_glucose 6-phosphate (G6P)","CJ019_WT_IMS_5ul_R1_01_40V",12901933
+"17_glucose 6-phosphate (G6P)","CJ019_WT_IMS_5ul_R2_02_20V_redo",17811892
+"17_glucose 6-phosphate (G6P)","CJ019_WT_IMS_5ul_R2_02_40V",13159094
+"17_glucose 6-phosphate (G6P)","CJ019_WT_IMS_5ul_R3_03_20V_redo",14506082
+"17_glucose 6-phosphate (G6P)","CJ019_WT_IMS_5ul_R3_03_40V",14231265
+"17_glucose 6-phosphate (G6P)","Muck_1642_IMS_5ul_R2_05_20V_redo",13669502
+"17_glucose 6-phosphate (G6P)","Muck_1642_IMS_5ul_R2_05_40V",12659493
+"17_glucose 6-phosphate (G6P)","Muck_1642_IMS_5ul_R3_06_20V_redo",14118678
+"17_glucose 6-phosphate (G6P)","Muck_1642_IMS_5ul_R3_06_40V",13172174
+"17_glucose 6-phosphate (G6P)","Muck_2224_IMS_5ul_R1_07_20V_redo",14345193
+"17_glucose 6-phosphate (G6P)","Muck_2224_IMS_5ul_R1_07_40V",12621556
+"17_glucose 6-phosphate (G6P)","Muck_2224_IMS_5ul_R2_08_20V_redo",16208751
+"17_glucose 6-phosphate (G6P)","Muck_2224_IMS_5ul_R2_08_40V",15712978
+"17_glucose 6-phosphate (G6P)","Muck_2224_IMS_5ul_R3_09_20V_redo",14111442
+"17_glucose 6-phosphate (G6P)","Muck_2224_IMS_5ul_R3_09_40V",13512256
+"17_glucose 6-phosphate (G6P)","Muck_5042_IMS_5ul_R1_10_20V_redo",15783254
+"17_glucose 6-phosphate (G6P)","Muck_5042_IMS_5ul_R1_10_40V",14874894
+"17_glucose 6-phosphate (G6P)","Muck_5042_IMS_5ul_R2_11_20V_redo",13844731
+"17_glucose 6-phosphate (G6P)","Muck_5042_IMS_5ul_R2_11_40V",12442837
+"17_glucose 6-phosphate (G6P)","Muck_5042_IMS_5ul_R3_12_20V_redo",14826878
+"17_glucose 6-phosphate (G6P)","Muck_5042_IMS_5ul_R3_12_40V",13007399
+"18_fructose 6-phosphate (F6P)","CJ019_WT_IMS_5ul_R1_01_20V_redo",8987626
+"18_fructose 6-phosphate (F6P)","CJ019_WT_IMS_5ul_R1_01_40V",7662189
+"18_fructose 6-phosphate (F6P)","CJ019_WT_IMS_5ul_R2_02_20V_redo",9409282
+"18_fructose 6-phosphate (F6P)","CJ019_WT_IMS_5ul_R2_02_40V",8329916
+"18_fructose 6-phosphate (F6P)","CJ019_WT_IMS_5ul_R3_03_20V_redo",8333584
+"18_fructose 6-phosphate (F6P)","CJ019_WT_IMS_5ul_R3_03_40V",7285533
+"18_fructose 6-phosphate (F6P)","Muck_1642_IMS_5ul_R2_05_20V_redo",4049068
+"18_fructose 6-phosphate (F6P)","Muck_1642_IMS_5ul_R2_05_40V",3376719
+"18_fructose 6-phosphate (F6P)","Muck_1642_IMS_5ul_R3_06_20V_redo",3881183
+"18_fructose 6-phosphate (F6P)","Muck_1642_IMS_5ul_R3_06_40V",3571780
+"18_fructose 6-phosphate (F6P)","Muck_2224_IMS_5ul_R1_07_20V_redo",4157529
+"18_fructose 6-phosphate (F6P)","Muck_2224_IMS_5ul_R1_07_40V",3477541
+"18_fructose 6-phosphate (F6P)","Muck_2224_IMS_5ul_R2_08_20V_redo",4679218
+"18_fructose 6-phosphate (F6P)","Muck_2224_IMS_5ul_R2_08_40V",4229739
+"18_fructose 6-phosphate (F6P)","Muck_2224_IMS_5ul_R3_09_20V_redo",4339415
+"18_fructose 6-phosphate (F6P)","Muck_2224_IMS_5ul_R3_09_40V",3421835
+"18_fructose 6-phosphate (F6P)","Muck_5042_IMS_5ul_R1_10_20V_redo",4703373
+"18_fructose 6-phosphate (F6P)","Muck_5042_IMS_5ul_R1_10_40V",4271166
+"18_fructose 6-phosphate (F6P)","Muck_5042_IMS_5ul_R2_11_20V_redo",4411950
+"18_fructose 6-phosphate (F6P)","Muck_5042_IMS_5ul_R2_11_40V",3725972
+"18_fructose 6-phosphate (F6P)","Muck_5042_IMS_5ul_R3_12_20V_redo",4310498
+"18_fructose 6-phosphate (F6P)","Muck_5042_IMS_5ul_R3_12_40V",4011438
+"19_fructose 1,6-diphosphate (F16DP)","CJ019_WT_IMS_5ul_R1_01_20V_redo",17213812
+"19_fructose 1,6-diphosphate (F16DP)","CJ019_WT_IMS_5ul_R1_01_40V",16191844
+"19_fructose 1,6-diphosphate (F16DP)","CJ019_WT_IMS_5ul_R2_02_20V_redo",18846112
+"19_fructose 1,6-diphosphate (F16DP)","CJ019_WT_IMS_5ul_R2_02_40V",19786086
+"19_fructose 1,6-diphosphate (F16DP)","CJ019_WT_IMS_5ul_R3_03_20V_redo",17324328
+"19_fructose 1,6-diphosphate (F16DP)","CJ019_WT_IMS_5ul_R3_03_40V",16504237
+"19_fructose 1,6-diphosphate (F16DP)","Muck_1642_IMS_5ul_R2_05_20V_redo",1102252
+"19_fructose 1,6-diphosphate (F16DP)","Muck_1642_IMS_5ul_R2_05_40V",869908
+"19_fructose 1,6-diphosphate (F16DP)","Muck_1642_IMS_5ul_R3_06_20V_redo",1132403
+"19_fructose 1,6-diphosphate (F16DP)","Muck_1642_IMS_5ul_R3_06_40V",1764520
+"19_fructose 1,6-diphosphate (F16DP)","Muck_2224_IMS_5ul_R1_07_20V_redo",1085750
+"19_fructose 1,6-diphosphate (F16DP)","Muck_2224_IMS_5ul_R1_07_40V",1626513
+"19_fructose 1,6-diphosphate (F16DP)","Muck_2224_IMS_5ul_R2_08_20V_redo",1035494
+"19_fructose 1,6-diphosphate (F16DP)","Muck_2224_IMS_5ul_R2_08_40V",944532
+"19_fructose 1,6-diphosphate (F16DP)","Muck_2224_IMS_5ul_R3_09_20V_redo",1798365
+"19_fructose 1,6-diphosphate (F16DP)","Muck_2224_IMS_5ul_R3_09_40V",1307288
+"19_fructose 1,6-diphosphate (F16DP)","Muck_5042_IMS_5ul_R1_10_20V_redo",1746330
+"19_fructose 1,6-diphosphate (F16DP)","Muck_5042_IMS_5ul_R1_10_40V",933790
+"19_fructose 1,6-diphosphate (F16DP)","Muck_5042_IMS_5ul_R2_11_20V_redo",844306
+"19_fructose 1,6-diphosphate (F16DP)","Muck_5042_IMS_5ul_R2_11_40V",827694
+"19_fructose 1,6-diphosphate (F16DP)","Muck_5042_IMS_5ul_R3_12_20V_redo",1562333
+"19_fructose 1,6-diphosphate (F16DP)","Muck_5042_IMS_5ul_R3_12_40V",861968
+"20_6-phosphogluconic acid (6PG)","CJ019_WT_IMS_5ul_R1_01_20V_redo",364645
+"20_6-phosphogluconic acid (6PG)","CJ019_WT_IMS_5ul_R1_01_40V",439836
+"20_6-phosphogluconic acid (6PG)","CJ019_WT_IMS_5ul_R2_02_20V_redo",801400
+"20_6-phosphogluconic acid (6PG)","CJ019_WT_IMS_5ul_R2_02_40V",675521
+"20_6-phosphogluconic acid (6PG)","CJ019_WT_IMS_5ul_R3_03_20V_redo",556627
+"20_6-phosphogluconic acid (6PG)","CJ019_WT_IMS_5ul_R3_03_40V",436567
+"20_6-phosphogluconic acid (6PG)","Muck_1642_IMS_5ul_R2_05_20V_redo",1578799
+"20_6-phosphogluconic acid (6PG)","Muck_1642_IMS_5ul_R2_05_40V",1293484
+"20_6-phosphogluconic acid (6PG)","Muck_1642_IMS_5ul_R3_06_20V_redo",1244003
+"20_6-phosphogluconic acid (6PG)","Muck_1642_IMS_5ul_R3_06_40V",993363
+"20_6-phosphogluconic acid (6PG)","Muck_2224_IMS_5ul_R1_07_20V_redo",1130617
+"20_6-phosphogluconic acid (6PG)","Muck_2224_IMS_5ul_R1_07_40V",1120251
+"20_6-phosphogluconic acid (6PG)","Muck_2224_IMS_5ul_R2_08_20V_redo",1126600
+"20_6-phosphogluconic acid (6PG)","Muck_2224_IMS_5ul_R2_08_40V",1156023
+"20_6-phosphogluconic acid (6PG)","Muck_2224_IMS_5ul_R3_09_20V_redo",1368433
+"20_6-phosphogluconic acid (6PG)","Muck_2224_IMS_5ul_R3_09_40V",1272405
+"20_6-phosphogluconic acid (6PG)","Muck_5042_IMS_5ul_R1_10_20V_redo",1092541
+"20_6-phosphogluconic acid (6PG)","Muck_5042_IMS_5ul_R1_10_40V",1224582
+"20_6-phosphogluconic acid (6PG)","Muck_5042_IMS_5ul_R2_11_20V_redo",1051512
+"20_6-phosphogluconic acid (6PG)","Muck_5042_IMS_5ul_R2_11_40V",1110196
+"20_6-phosphogluconic acid (6PG)","Muck_5042_IMS_5ul_R3_12_20V_redo",1044955
+"20_6-phosphogluconic acid (6PG)","Muck_5042_IMS_5ul_R3_12_40V",910293
+"21_3-phosphoglyceric acid (3PG)","CJ019_WT_IMS_5ul_R1_01_20V_redo",488457
+"21_3-phosphoglyceric acid (3PG)","CJ019_WT_IMS_5ul_R1_01_40V",237459
+"21_3-phosphoglyceric acid (3PG)","CJ019_WT_IMS_5ul_R2_02_20V_redo",428758
+"21_3-phosphoglyceric acid (3PG)","CJ019_WT_IMS_5ul_R2_02_40V",219629
+"21_3-phosphoglyceric acid (3PG)","CJ019_WT_IMS_5ul_R3_03_20V_redo",541867
+"21_3-phosphoglyceric acid (3PG)","CJ019_WT_IMS_5ul_R3_03_40V",310158
+"21_3-phosphoglyceric acid (3PG)","Muck_1642_IMS_5ul_R2_05_20V_redo",336342
+"21_3-phosphoglyceric acid (3PG)","Muck_1642_IMS_5ul_R2_05_40V",189303
+"21_3-phosphoglyceric acid (3PG)","Muck_1642_IMS_5ul_R3_06_20V_redo",339824
+"21_3-phosphoglyceric acid (3PG)","Muck_1642_IMS_5ul_R3_06_40V",164472
+"21_3-phosphoglyceric acid (3PG)","Muck_2224_IMS_5ul_R1_07_20V_redo",410135
+"21_3-phosphoglyceric acid (3PG)","Muck_2224_IMS_5ul_R1_07_40V",274942
+"21_3-phosphoglyceric acid (3PG)","Muck_2224_IMS_5ul_R2_08_20V_redo",343247
+"21_3-phosphoglyceric acid (3PG)","Muck_2224_IMS_5ul_R2_08_40V",154413
+"21_3-phosphoglyceric acid (3PG)","Muck_2224_IMS_5ul_R3_09_20V_redo",269712
+"21_3-phosphoglyceric acid (3PG)","Muck_2224_IMS_5ul_R3_09_40V",199388
+"21_3-phosphoglyceric acid (3PG)","Muck_5042_IMS_5ul_R1_10_20V_redo",216153
+"21_3-phosphoglyceric acid (3PG)","Muck_5042_IMS_5ul_R1_10_40V",161952
+"21_3-phosphoglyceric acid (3PG)","Muck_5042_IMS_5ul_R2_11_20V_redo",171655
+"21_3-phosphoglyceric acid (3PG)","Muck_5042_IMS_5ul_R2_11_40V",166099
+"21_3-phosphoglyceric acid (3PG)","Muck_5042_IMS_5ul_R3_12_20V_redo",139730
+"21_3-phosphoglyceric acid (3PG)","Muck_5042_IMS_5ul_R3_12_40V",185453
+"23_protocatechuic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",10519
+"23_protocatechuic acid","CJ019_WT_IMS_5ul_R1_01_40V",2568
+"23_protocatechuic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",19778
+"23_protocatechuic acid","CJ019_WT_IMS_5ul_R2_02_40V",20523
+"23_protocatechuic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",24600
+"23_protocatechuic acid","CJ019_WT_IMS_5ul_R3_03_40V",23753
+"23_protocatechuic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",37806
+"23_protocatechuic acid","Muck_1642_IMS_5ul_R2_05_40V",21391
+"23_protocatechuic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",18941
+"23_protocatechuic acid","Muck_1642_IMS_5ul_R3_06_40V",4776
+"23_protocatechuic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",26127
+"23_protocatechuic acid","Muck_2224_IMS_5ul_R1_07_40V",13037
+"23_protocatechuic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",30177
+"23_protocatechuic acid","Muck_2224_IMS_5ul_R2_08_40V",11740
+"23_protocatechuic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",21403
+"23_protocatechuic acid","Muck_2224_IMS_5ul_R3_09_40V",8854
+"23_protocatechuic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",19278
+"23_protocatechuic acid","Muck_5042_IMS_5ul_R1_10_40V",3702
+"23_protocatechuic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",9608
+"23_protocatechuic acid","Muck_5042_IMS_5ul_R2_11_40V",1211
+"23_protocatechuic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",4776
+"23_protocatechuic acid","Muck_5042_IMS_5ul_R3_12_40V",2710
+"29_isopentenyl diphosphate (IPP)","CJ019_WT_IMS_5ul_R1_01_20V_redo",348266
+"29_isopentenyl diphosphate (IPP)","CJ019_WT_IMS_5ul_R1_01_40V",586078
+"29_isopentenyl diphosphate (IPP)","CJ019_WT_IMS_5ul_R2_02_20V_redo",364389
+"29_isopentenyl diphosphate (IPP)","CJ019_WT_IMS_5ul_R2_02_40V",679229
+"29_isopentenyl diphosphate (IPP)","CJ019_WT_IMS_5ul_R3_03_20V_redo",283940
+"29_isopentenyl diphosphate (IPP)","CJ019_WT_IMS_5ul_R3_03_40V",612223
+"29_isopentenyl diphosphate (IPP)","Muck_1642_IMS_5ul_R2_05_20V_redo",170370
+"29_isopentenyl diphosphate (IPP)","Muck_1642_IMS_5ul_R2_05_40V",944290
+"29_isopentenyl diphosphate (IPP)","Muck_1642_IMS_5ul_R3_06_20V_redo",397049
+"29_isopentenyl diphosphate (IPP)","Muck_1642_IMS_5ul_R3_06_40V",799502
+"29_isopentenyl diphosphate (IPP)","Muck_2224_IMS_5ul_R1_07_20V_redo",498519
+"29_isopentenyl diphosphate (IPP)","Muck_2224_IMS_5ul_R1_07_40V",1026060
+"29_isopentenyl diphosphate (IPP)","Muck_2224_IMS_5ul_R2_08_20V_redo",481195
+"29_isopentenyl diphosphate (IPP)","Muck_2224_IMS_5ul_R2_08_40V",1005673
+"29_isopentenyl diphosphate (IPP)","Muck_2224_IMS_5ul_R3_09_20V_redo",169132
+"29_isopentenyl diphosphate (IPP)","Muck_2224_IMS_5ul_R3_09_40V",935663
+"29_isopentenyl diphosphate (IPP)","Muck_5042_IMS_5ul_R1_10_20V_redo",244986
+"29_isopentenyl diphosphate (IPP)","Muck_5042_IMS_5ul_R1_10_40V",492700
+"29_isopentenyl diphosphate (IPP)","Muck_5042_IMS_5ul_R2_11_20V_redo",223227
+"29_isopentenyl diphosphate (IPP)","Muck_5042_IMS_5ul_R2_11_40V",411842
+"29_isopentenyl diphosphate (IPP)","Muck_5042_IMS_5ul_R3_12_20V_redo",182186
+"29_isopentenyl diphosphate (IPP)","Muck_5042_IMS_5ul_R3_12_40V",376841
+"31_geranyl diphopshate (GPP)","CJ019_WT_IMS_5ul_R1_01_20V_redo",180637
+"31_geranyl diphopshate (GPP)","CJ019_WT_IMS_5ul_R1_01_40V",329277
+"31_geranyl diphopshate (GPP)","CJ019_WT_IMS_5ul_R2_02_20V_redo",158325
+"31_geranyl diphopshate (GPP)","CJ019_WT_IMS_5ul_R2_02_40V",301316
+"31_geranyl diphopshate (GPP)","CJ019_WT_IMS_5ul_R3_03_20V_redo",177344
+"31_geranyl diphopshate (GPP)","CJ019_WT_IMS_5ul_R3_03_40V",289647
+"31_geranyl diphopshate (GPP)","Muck_1642_IMS_5ul_R2_05_20V_redo",89566
+"31_geranyl diphopshate (GPP)","Muck_1642_IMS_5ul_R2_05_40V",223358
+"31_geranyl diphopshate (GPP)","Muck_1642_IMS_5ul_R3_06_20V_redo",133067
+"31_geranyl diphopshate (GPP)","Muck_1642_IMS_5ul_R3_06_40V",107801
+"31_geranyl diphopshate (GPP)","Muck_2224_IMS_5ul_R1_07_20V_redo",137868
+"31_geranyl diphopshate (GPP)","Muck_2224_IMS_5ul_R1_07_40V",226981
+"31_geranyl diphopshate (GPP)","Muck_2224_IMS_5ul_R2_08_20V_redo",105823
+"31_geranyl diphopshate (GPP)","Muck_2224_IMS_5ul_R2_08_40V",193594
+"31_geranyl diphopshate (GPP)","Muck_2224_IMS_5ul_R3_09_20V_redo",155240
+"31_geranyl diphopshate (GPP)","Muck_2224_IMS_5ul_R3_09_40V",236740
+"31_geranyl diphopshate (GPP)","Muck_5042_IMS_5ul_R1_10_20V_redo",114776
+"31_geranyl diphopshate (GPP)","Muck_5042_IMS_5ul_R1_10_40V",202597
+"31_geranyl diphopshate (GPP)","Muck_5042_IMS_5ul_R2_11_20V_redo",188243
+"31_geranyl diphopshate (GPP)","Muck_5042_IMS_5ul_R2_11_40V",265528
+"31_geranyl diphopshate (GPP)","Muck_5042_IMS_5ul_R3_12_20V_redo",98446
+"31_geranyl diphopshate (GPP)","Muck_5042_IMS_5ul_R3_12_40V",176424
+"35_gluconic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",112947
+"35_gluconic acid","CJ019_WT_IMS_5ul_R1_01_40V",74326
+"35_gluconic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",159154
+"35_gluconic acid","CJ019_WT_IMS_5ul_R2_02_40V",106913
+"35_gluconic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",96090
+"35_gluconic acid","CJ019_WT_IMS_5ul_R3_03_40V",67074
+"35_gluconic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",9116
+"35_gluconic acid","Muck_1642_IMS_5ul_R2_05_40V",0
+"35_gluconic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",7937
+"35_gluconic acid","Muck_1642_IMS_5ul_R3_06_40V",5033
+"35_gluconic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",3010
+"35_gluconic acid","Muck_2224_IMS_5ul_R1_07_40V",393
+"35_gluconic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",636
+"35_gluconic acid","Muck_2224_IMS_5ul_R2_08_40V",1349
+"35_gluconic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",2709
+"35_gluconic acid","Muck_2224_IMS_5ul_R3_09_40V",8229
+"35_gluconic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",393
+"35_gluconic acid","Muck_5042_IMS_5ul_R1_10_40V",473
+"35_gluconic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",6957
+"35_gluconic acid","Muck_5042_IMS_5ul_R2_11_40V",2241
+"35_gluconic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",6850
+"35_gluconic acid","Muck_5042_IMS_5ul_R3_12_40V",1319
+"36_2-ketogluconic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",4912
+"36_2-ketogluconic acid","CJ019_WT_IMS_5ul_R1_01_40V",5941
+"36_2-ketogluconic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",7193
+"36_2-ketogluconic acid","CJ019_WT_IMS_5ul_R2_02_40V",13859
+"36_2-ketogluconic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",2812
+"36_2-ketogluconic acid","CJ019_WT_IMS_5ul_R3_03_40V",2653
+"36_2-ketogluconic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",0
+"36_2-ketogluconic acid","Muck_1642_IMS_5ul_R2_05_40V",0
+"36_2-ketogluconic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",0
+"36_2-ketogluconic acid","Muck_1642_IMS_5ul_R3_06_40V",118
+"36_2-ketogluconic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",0
+"36_2-ketogluconic acid","Muck_2224_IMS_5ul_R1_07_40V",0
+"36_2-ketogluconic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",0
+"36_2-ketogluconic acid","Muck_2224_IMS_5ul_R2_08_40V",57
+"36_2-ketogluconic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",0
+"36_2-ketogluconic acid","Muck_2224_IMS_5ul_R3_09_40V",202
+"36_2-ketogluconic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",0
+"36_2-ketogluconic acid","Muck_5042_IMS_5ul_R1_10_40V",0
+"36_2-ketogluconic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",0
+"36_2-ketogluconic acid","Muck_5042_IMS_5ul_R2_11_40V",0
+"36_2-ketogluconic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",0
+"36_2-ketogluconic acid","Muck_5042_IMS_5ul_R3_12_40V",0
+"37_ribulose 5-phosphate","CJ019_WT_IMS_5ul_R1_01_20V_redo",1491535
+"37_ribulose 5-phosphate","CJ019_WT_IMS_5ul_R1_01_40V",1410270
+"37_ribulose 5-phosphate","CJ019_WT_IMS_5ul_R2_02_20V_redo",1433505
+"37_ribulose 5-phosphate","CJ019_WT_IMS_5ul_R2_02_40V",1425177
+"37_ribulose 5-phosphate","CJ019_WT_IMS_5ul_R3_03_20V_redo",1503054
+"37_ribulose 5-phosphate","CJ019_WT_IMS_5ul_R3_03_40V",1358747
+"37_ribulose 5-phosphate","Muck_1642_IMS_5ul_R2_05_20V_redo",759453
+"37_ribulose 5-phosphate","Muck_1642_IMS_5ul_R2_05_40V",830379
+"37_ribulose 5-phosphate","Muck_1642_IMS_5ul_R3_06_20V_redo",902062
+"37_ribulose 5-phosphate","Muck_1642_IMS_5ul_R3_06_40V",857425
+"37_ribulose 5-phosphate","Muck_2224_IMS_5ul_R1_07_20V_redo",821578
+"37_ribulose 5-phosphate","Muck_2224_IMS_5ul_R1_07_40V",813031
+"37_ribulose 5-phosphate","Muck_2224_IMS_5ul_R2_08_20V_redo",1030991
+"37_ribulose 5-phosphate","Muck_2224_IMS_5ul_R2_08_40V",814401
+"37_ribulose 5-phosphate","Muck_2224_IMS_5ul_R3_09_20V_redo",868603
+"37_ribulose 5-phosphate","Muck_2224_IMS_5ul_R3_09_40V",833665
+"37_ribulose 5-phosphate","Muck_5042_IMS_5ul_R1_10_20V_redo",966846
+"37_ribulose 5-phosphate","Muck_5042_IMS_5ul_R1_10_40V",817806
+"37_ribulose 5-phosphate","Muck_5042_IMS_5ul_R2_11_20V_redo",865624
+"37_ribulose 5-phosphate","Muck_5042_IMS_5ul_R2_11_40V",688745
+"37_ribulose 5-phosphate","Muck_5042_IMS_5ul_R3_12_20V_redo",885868
+"37_ribulose 5-phosphate","Muck_5042_IMS_5ul_R3_12_40V",801125
+"39_glutamic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",5206868
+"39_glutamic acid","CJ019_WT_IMS_5ul_R1_01_40V",4146123
+"39_glutamic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",5115605
+"39_glutamic acid","CJ019_WT_IMS_5ul_R2_02_40V",4016374
+"39_glutamic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",5370528
+"39_glutamic acid","CJ019_WT_IMS_5ul_R3_03_40V",4081982
+"39_glutamic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",6397637
+"39_glutamic acid","Muck_1642_IMS_5ul_R2_05_40V",4900854
+"39_glutamic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",5604133
+"39_glutamic acid","Muck_1642_IMS_5ul_R3_06_40V",4566837
+"39_glutamic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",5539574
+"39_glutamic acid","Muck_2224_IMS_5ul_R1_07_40V",4241314
+"39_glutamic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",5716720
+"39_glutamic acid","Muck_2224_IMS_5ul_R2_08_40V",4548804
+"39_glutamic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",5907762
+"39_glutamic acid","Muck_2224_IMS_5ul_R3_09_40V",4710793
+"39_glutamic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",5435229
+"39_glutamic acid","Muck_5042_IMS_5ul_R1_10_40V",4492813
+"39_glutamic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",4952372
+"39_glutamic acid","Muck_5042_IMS_5ul_R2_11_40V",3901678
+"39_glutamic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",5099724
+"39_glutamic acid","Muck_5042_IMS_5ul_R3_12_40V",3983341
+"41_UDP-glucose","CJ019_WT_IMS_5ul_R1_01_20V_redo",15998810
+"41_UDP-glucose","CJ019_WT_IMS_5ul_R1_01_40V",18832824
+"41_UDP-glucose","CJ019_WT_IMS_5ul_R2_02_20V_redo",17034778
+"41_UDP-glucose","CJ019_WT_IMS_5ul_R2_02_40V",19964050
+"41_UDP-glucose","CJ019_WT_IMS_5ul_R3_03_20V_redo",15478121
+"41_UDP-glucose","CJ019_WT_IMS_5ul_R3_03_40V",17853312
+"41_UDP-glucose","Muck_1642_IMS_5ul_R2_05_20V_redo",15005107
+"41_UDP-glucose","Muck_1642_IMS_5ul_R2_05_40V",17858476
+"41_UDP-glucose","Muck_1642_IMS_5ul_R3_06_20V_redo",13452442
+"41_UDP-glucose","Muck_1642_IMS_5ul_R3_06_40V",15848206
+"41_UDP-glucose","Muck_2224_IMS_5ul_R1_07_20V_redo",13759384
+"41_UDP-glucose","Muck_2224_IMS_5ul_R1_07_40V",15661872
+"41_UDP-glucose","Muck_2224_IMS_5ul_R2_08_20V_redo",12877497
+"41_UDP-glucose","Muck_2224_IMS_5ul_R2_08_40V",15270184
+"41_UDP-glucose","Muck_2224_IMS_5ul_R3_09_20V_redo",12867522
+"41_UDP-glucose","Muck_2224_IMS_5ul_R3_09_40V",15069568
+"41_UDP-glucose","Muck_5042_IMS_5ul_R1_10_20V_redo",11180804
+"41_UDP-glucose","Muck_5042_IMS_5ul_R1_10_40V",12860684
+"41_UDP-glucose","Muck_5042_IMS_5ul_R2_11_20V_redo",8906636
+"41_UDP-glucose","Muck_5042_IMS_5ul_R2_11_40V",9974533
+"41_UDP-glucose","Muck_5042_IMS_5ul_R3_12_20V_redo",8554977
+"41_UDP-glucose","Muck_5042_IMS_5ul_R3_12_40V",9720772
+"43_cis,cis-muconic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",376843
+"43_cis,cis-muconic acid","CJ019_WT_IMS_5ul_R1_01_40V",371954
+"43_cis,cis-muconic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",347265
+"43_cis,cis-muconic acid","CJ019_WT_IMS_5ul_R2_02_40V",372872
+"43_cis,cis-muconic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",358765
+"43_cis,cis-muconic acid","CJ019_WT_IMS_5ul_R3_03_40V",324036
+"43_cis,cis-muconic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",374274
+"43_cis,cis-muconic acid","Muck_1642_IMS_5ul_R2_05_40V",336282
+"43_cis,cis-muconic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",286524
+"43_cis,cis-muconic acid","Muck_1642_IMS_5ul_R3_06_40V",287965
+"43_cis,cis-muconic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",324055
+"43_cis,cis-muconic acid","Muck_2224_IMS_5ul_R1_07_40V",321708
+"43_cis,cis-muconic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",354512
+"43_cis,cis-muconic acid","Muck_2224_IMS_5ul_R2_08_40V",350362
+"43_cis,cis-muconic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",375716
+"43_cis,cis-muconic acid","Muck_2224_IMS_5ul_R3_09_40V",334946
+"43_cis,cis-muconic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",296665
+"43_cis,cis-muconic acid","Muck_5042_IMS_5ul_R1_10_40V",321917
+"43_cis,cis-muconic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",288443
+"43_cis,cis-muconic acid","Muck_5042_IMS_5ul_R2_11_40V",247193
+"43_cis,cis-muconic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",300052
+"43_cis,cis-muconic acid","Muck_5042_IMS_5ul_R3_12_40V",281288
+"45_dihydroxyacetone phosphate (DHAP)","CJ019_WT_IMS_5ul_R1_01_20V_redo",65650
+"45_dihydroxyacetone phosphate (DHAP)","CJ019_WT_IMS_5ul_R1_01_40V",58907
+"45_dihydroxyacetone phosphate (DHAP)","CJ019_WT_IMS_5ul_R2_02_20V_redo",65021
+"45_dihydroxyacetone phosphate (DHAP)","CJ019_WT_IMS_5ul_R2_02_40V",56687
+"45_dihydroxyacetone phosphate (DHAP)","CJ019_WT_IMS_5ul_R3_03_20V_redo",59754
+"45_dihydroxyacetone phosphate (DHAP)","CJ019_WT_IMS_5ul_R3_03_40V",65567
+"45_dihydroxyacetone phosphate (DHAP)","Muck_1642_IMS_5ul_R2_05_20V_redo",11835
+"45_dihydroxyacetone phosphate (DHAP)","Muck_1642_IMS_5ul_R2_05_40V",5956
+"45_dihydroxyacetone phosphate (DHAP)","Muck_1642_IMS_5ul_R3_06_20V_redo",17941
+"45_dihydroxyacetone phosphate (DHAP)","Muck_1642_IMS_5ul_R3_06_40V",20507
+"45_dihydroxyacetone phosphate (DHAP)","Muck_2224_IMS_5ul_R1_07_20V_redo",16482
+"45_dihydroxyacetone phosphate (DHAP)","Muck_2224_IMS_5ul_R1_07_40V",11856
+"45_dihydroxyacetone phosphate (DHAP)","Muck_2224_IMS_5ul_R2_08_20V_redo",14576
+"45_dihydroxyacetone phosphate (DHAP)","Muck_2224_IMS_5ul_R2_08_40V",11352
+"45_dihydroxyacetone phosphate (DHAP)","Muck_2224_IMS_5ul_R3_09_20V_redo",24896
+"45_dihydroxyacetone phosphate (DHAP)","Muck_2224_IMS_5ul_R3_09_40V",10033
+"45_dihydroxyacetone phosphate (DHAP)","Muck_5042_IMS_5ul_R1_10_20V_redo",18478
+"45_dihydroxyacetone phosphate (DHAP)","Muck_5042_IMS_5ul_R1_10_40V",23801
+"45_dihydroxyacetone phosphate (DHAP)","Muck_5042_IMS_5ul_R2_11_20V_redo",11455
+"45_dihydroxyacetone phosphate (DHAP)","Muck_5042_IMS_5ul_R2_11_40V",16292
+"45_dihydroxyacetone phosphate (DHAP)","Muck_5042_IMS_5ul_R3_12_20V_redo",11220
+"45_dihydroxyacetone phosphate (DHAP)","Muck_5042_IMS_5ul_R3_12_40V",6372
+"46_glutamine","CJ019_WT_IMS_5ul_R1_01_20V_redo",23304
+"46_glutamine","CJ019_WT_IMS_5ul_R1_01_40V",23252
+"46_glutamine","CJ019_WT_IMS_5ul_R2_02_20V_redo",25014
+"46_glutamine","CJ019_WT_IMS_5ul_R2_02_40V",28711
+"46_glutamine","CJ019_WT_IMS_5ul_R3_03_20V_redo",37525
+"46_glutamine","CJ019_WT_IMS_5ul_R3_03_40V",39515
+"46_glutamine","Muck_1642_IMS_5ul_R2_05_20V_redo",31282
+"46_glutamine","Muck_1642_IMS_5ul_R2_05_40V",34645
+"46_glutamine","Muck_1642_IMS_5ul_R3_06_20V_redo",28496
+"46_glutamine","Muck_1642_IMS_5ul_R3_06_40V",25820
+"46_glutamine","Muck_2224_IMS_5ul_R1_07_20V_redo",36242
+"46_glutamine","Muck_2224_IMS_5ul_R1_07_40V",43878
+"46_glutamine","Muck_2224_IMS_5ul_R2_08_20V_redo",48615
+"46_glutamine","Muck_2224_IMS_5ul_R2_08_40V",39434
+"46_glutamine","Muck_2224_IMS_5ul_R3_09_20V_redo",35143
+"46_glutamine","Muck_2224_IMS_5ul_R3_09_40V",42543
+"46_glutamine","Muck_5042_IMS_5ul_R1_10_20V_redo",59050
+"46_glutamine","Muck_5042_IMS_5ul_R1_10_40V",38213
+"46_glutamine","Muck_5042_IMS_5ul_R2_11_20V_redo",38990
+"46_glutamine","Muck_5042_IMS_5ul_R2_11_40V",35966
+"46_glutamine","Muck_5042_IMS_5ul_R3_12_20V_redo",54944
+"46_glutamine","Muck_5042_IMS_5ul_R3_12_40V",64623
+"48_trehalose","CJ019_WT_IMS_5ul_R1_01_20V_redo",101054
+"48_trehalose","CJ019_WT_IMS_5ul_R1_01_40V",93119
+"48_trehalose","CJ019_WT_IMS_5ul_R2_02_20V_redo",104113
+"48_trehalose","CJ019_WT_IMS_5ul_R2_02_40V",88571
+"48_trehalose","CJ019_WT_IMS_5ul_R3_03_20V_redo",121110
+"48_trehalose","CJ019_WT_IMS_5ul_R3_03_40V",79036
+"48_trehalose","Muck_1642_IMS_5ul_R2_05_20V_redo",16135
+"48_trehalose","Muck_1642_IMS_5ul_R2_05_40V",9754
+"48_trehalose","Muck_1642_IMS_5ul_R3_06_20V_redo",22361
+"48_trehalose","Muck_1642_IMS_5ul_R3_06_40V",16316
+"48_trehalose","Muck_2224_IMS_5ul_R1_07_20V_redo",12820
+"48_trehalose","Muck_2224_IMS_5ul_R1_07_40V",5788
+"48_trehalose","Muck_2224_IMS_5ul_R2_08_20V_redo",7927
+"48_trehalose","Muck_2224_IMS_5ul_R2_08_40V",6486
+"48_trehalose","Muck_2224_IMS_5ul_R3_09_20V_redo",8665
+"48_trehalose","Muck_2224_IMS_5ul_R3_09_40V",7142
+"48_trehalose","Muck_5042_IMS_5ul_R1_10_20V_redo",22045
+"48_trehalose","Muck_5042_IMS_5ul_R1_10_40V",21894
+"48_trehalose","Muck_5042_IMS_5ul_R2_11_20V_redo",21093
+"48_trehalose","Muck_5042_IMS_5ul_R2_11_40V",15841
+"48_trehalose","Muck_5042_IMS_5ul_R3_12_20V_redo",19587
+"48_trehalose","Muck_5042_IMS_5ul_R3_12_40V",19020
+"49_phenylalanine","CJ019_WT_IMS_5ul_R1_01_20V_redo",190408
+"49_phenylalanine","CJ019_WT_IMS_5ul_R1_01_40V",133770
+"49_phenylalanine","CJ019_WT_IMS_5ul_R2_02_20V_redo",173357
+"49_phenylalanine","CJ019_WT_IMS_5ul_R2_02_40V",141829
+"49_phenylalanine","CJ019_WT_IMS_5ul_R3_03_20V_redo",169856
+"49_phenylalanine","CJ019_WT_IMS_5ul_R3_03_40V",127949
+"49_phenylalanine","Muck_1642_IMS_5ul_R2_05_20V_redo",180579
+"49_phenylalanine","Muck_1642_IMS_5ul_R2_05_40V",161965
+"49_phenylalanine","Muck_1642_IMS_5ul_R3_06_20V_redo",260082
+"49_phenylalanine","Muck_1642_IMS_5ul_R3_06_40V",170385
+"49_phenylalanine","Muck_2224_IMS_5ul_R1_07_20V_redo",174140
+"49_phenylalanine","Muck_2224_IMS_5ul_R1_07_40V",113221
+"49_phenylalanine","Muck_2224_IMS_5ul_R2_08_20V_redo",146610
+"49_phenylalanine","Muck_2224_IMS_5ul_R2_08_40V",110085
+"49_phenylalanine","Muck_2224_IMS_5ul_R3_09_20V_redo",177144
+"49_phenylalanine","Muck_2224_IMS_5ul_R3_09_40V",130802
+"49_phenylalanine","Muck_5042_IMS_5ul_R1_10_20V_redo",239995
+"49_phenylalanine","Muck_5042_IMS_5ul_R1_10_40V",163051
+"49_phenylalanine","Muck_5042_IMS_5ul_R2_11_20V_redo",205837
+"49_phenylalanine","Muck_5042_IMS_5ul_R2_11_40V",165752
+"49_phenylalanine","Muck_5042_IMS_5ul_R3_12_20V_redo",206935
+"49_phenylalanine","Muck_5042_IMS_5ul_R3_12_40V",178529
+"53_erythrose 4-phosphate (E4P)","CJ019_WT_IMS_5ul_R1_01_20V_redo",132550
+"53_erythrose 4-phosphate (E4P)","CJ019_WT_IMS_5ul_R1_01_40V",97853
+"53_erythrose 4-phosphate (E4P)","CJ019_WT_IMS_5ul_R2_02_20V_redo",171397
+"53_erythrose 4-phosphate (E4P)","CJ019_WT_IMS_5ul_R2_02_40V",125327
+"53_erythrose 4-phosphate (E4P)","CJ019_WT_IMS_5ul_R3_03_20V_redo",130089
+"53_erythrose 4-phosphate (E4P)","CJ019_WT_IMS_5ul_R3_03_40V",92251
+"53_erythrose 4-phosphate (E4P)","Muck_1642_IMS_5ul_R2_05_20V_redo",124292
+"53_erythrose 4-phosphate (E4P)","Muck_1642_IMS_5ul_R2_05_40V",76546
+"53_erythrose 4-phosphate (E4P)","Muck_1642_IMS_5ul_R3_06_20V_redo",101701
+"53_erythrose 4-phosphate (E4P)","Muck_1642_IMS_5ul_R3_06_40V",83768
+"53_erythrose 4-phosphate (E4P)","Muck_2224_IMS_5ul_R1_07_20V_redo",137061
+"53_erythrose 4-phosphate (E4P)","Muck_2224_IMS_5ul_R1_07_40V",76968
+"53_erythrose 4-phosphate (E4P)","Muck_2224_IMS_5ul_R2_08_20V_redo",150005
+"53_erythrose 4-phosphate (E4P)","Muck_2224_IMS_5ul_R2_08_40V",101147
+"53_erythrose 4-phosphate (E4P)","Muck_2224_IMS_5ul_R3_09_20V_redo",112113
+"53_erythrose 4-phosphate (E4P)","Muck_2224_IMS_5ul_R3_09_40V",87263
+"53_erythrose 4-phosphate (E4P)","Muck_5042_IMS_5ul_R1_10_20V_redo",151308
+"53_erythrose 4-phosphate (E4P)","Muck_5042_IMS_5ul_R1_10_40V",90460
+"53_erythrose 4-phosphate (E4P)","Muck_5042_IMS_5ul_R2_11_20V_redo",131150
+"53_erythrose 4-phosphate (E4P)","Muck_5042_IMS_5ul_R2_11_40V",97206
+"53_erythrose 4-phosphate (E4P)","Muck_5042_IMS_5ul_R3_12_20V_redo",118040
+"53_erythrose 4-phosphate (E4P)","Muck_5042_IMS_5ul_R3_12_40V",104283
+"54_sedoheptulose 7-phosphate (S7P)","CJ019_WT_IMS_5ul_R1_01_20V_redo",6666548
+"54_sedoheptulose 7-phosphate (S7P)","CJ019_WT_IMS_5ul_R1_01_40V",7630779
+"54_sedoheptulose 7-phosphate (S7P)","CJ019_WT_IMS_5ul_R2_02_20V_redo",8939890
+"54_sedoheptulose 7-phosphate (S7P)","CJ019_WT_IMS_5ul_R2_02_40V",7939624
+"54_sedoheptulose 7-phosphate (S7P)","CJ019_WT_IMS_5ul_R3_03_20V_redo",7229732
+"54_sedoheptulose 7-phosphate (S7P)","CJ019_WT_IMS_5ul_R3_03_40V",7074707
+"54_sedoheptulose 7-phosphate (S7P)","Muck_1642_IMS_5ul_R2_05_20V_redo",3922371
+"54_sedoheptulose 7-phosphate (S7P)","Muck_1642_IMS_5ul_R2_05_40V",3796643
+"54_sedoheptulose 7-phosphate (S7P)","Muck_1642_IMS_5ul_R3_06_20V_redo",4234858
+"54_sedoheptulose 7-phosphate (S7P)","Muck_1642_IMS_5ul_R3_06_40V",3737771
+"54_sedoheptulose 7-phosphate (S7P)","Muck_2224_IMS_5ul_R1_07_20V_redo",4257202
+"54_sedoheptulose 7-phosphate (S7P)","Muck_2224_IMS_5ul_R1_07_40V",4122185
+"54_sedoheptulose 7-phosphate (S7P)","Muck_2224_IMS_5ul_R2_08_20V_redo",4770643
+"54_sedoheptulose 7-phosphate (S7P)","Muck_2224_IMS_5ul_R2_08_40V",4898748
+"54_sedoheptulose 7-phosphate (S7P)","Muck_2224_IMS_5ul_R3_09_20V_redo",4314138
+"54_sedoheptulose 7-phosphate (S7P)","Muck_2224_IMS_5ul_R3_09_40V",4394633
+"54_sedoheptulose 7-phosphate (S7P)","Muck_5042_IMS_5ul_R1_10_20V_redo",4537103
+"54_sedoheptulose 7-phosphate (S7P)","Muck_5042_IMS_5ul_R1_10_40V",4292963
+"54_sedoheptulose 7-phosphate (S7P)","Muck_5042_IMS_5ul_R2_11_20V_redo",4011406
+"54_sedoheptulose 7-phosphate (S7P)","Muck_5042_IMS_5ul_R2_11_40V",4105218
+"54_sedoheptulose 7-phosphate (S7P)","Muck_5042_IMS_5ul_R3_12_20V_redo",4467861
+"54_sedoheptulose 7-phosphate (S7P)","Muck_5042_IMS_5ul_R3_12_40V",4146543
+"55_tryptophan","CJ019_WT_IMS_5ul_R1_01_20V_redo",146049
+"55_tryptophan","CJ019_WT_IMS_5ul_R1_01_40V",113073
+"55_tryptophan","CJ019_WT_IMS_5ul_R2_02_20V_redo",143650
+"55_tryptophan","CJ019_WT_IMS_5ul_R2_02_40V",94773
+"55_tryptophan","CJ019_WT_IMS_5ul_R3_03_20V_redo",128300
+"55_tryptophan","CJ019_WT_IMS_5ul_R3_03_40V",86149
+"55_tryptophan","Muck_1642_IMS_5ul_R2_05_20V_redo",134894
+"55_tryptophan","Muck_1642_IMS_5ul_R2_05_40V",94470
+"55_tryptophan","Muck_1642_IMS_5ul_R3_06_20V_redo",179420
+"55_tryptophan","Muck_1642_IMS_5ul_R3_06_40V",130580
+"55_tryptophan","Muck_2224_IMS_5ul_R1_07_20V_redo",150626
+"55_tryptophan","Muck_2224_IMS_5ul_R1_07_40V",120203
+"55_tryptophan","Muck_2224_IMS_5ul_R2_08_20V_redo",128536
+"55_tryptophan","Muck_2224_IMS_5ul_R2_08_40V",89262
+"55_tryptophan","Muck_2224_IMS_5ul_R3_09_20V_redo",130052
+"55_tryptophan","Muck_2224_IMS_5ul_R3_09_40V",114165
+"55_tryptophan","Muck_5042_IMS_5ul_R1_10_20V_redo",122535
+"55_tryptophan","Muck_5042_IMS_5ul_R1_10_40V",95505
+"55_tryptophan","Muck_5042_IMS_5ul_R2_11_20V_redo",172658
+"55_tryptophan","Muck_5042_IMS_5ul_R2_11_40V",127760
+"55_tryptophan","Muck_5042_IMS_5ul_R3_12_20V_redo",158385
+"55_tryptophan","Muck_5042_IMS_5ul_R3_12_40V",124723
+"57_mannitol","CJ019_WT_IMS_5ul_R1_01_20V_redo",515727
+"57_mannitol","CJ019_WT_IMS_5ul_R1_01_40V",282185
+"57_mannitol","CJ019_WT_IMS_5ul_R2_02_20V_redo",405946
+"57_mannitol","CJ019_WT_IMS_5ul_R2_02_40V",282600
+"57_mannitol","CJ019_WT_IMS_5ul_R3_03_20V_redo",422612
+"57_mannitol","CJ019_WT_IMS_5ul_R3_03_40V",297651
+"57_mannitol","Muck_1642_IMS_5ul_R2_05_20V_redo",1661386
+"57_mannitol","Muck_1642_IMS_5ul_R2_05_40V",1467965
+"57_mannitol","Muck_1642_IMS_5ul_R3_06_20V_redo",1809629
+"57_mannitol","Muck_1642_IMS_5ul_R3_06_40V",1371084
+"57_mannitol","Muck_2224_IMS_5ul_R1_07_20V_redo",1065853
+"57_mannitol","Muck_2224_IMS_5ul_R1_07_40V",815530
+"57_mannitol","Muck_2224_IMS_5ul_R2_08_20V_redo",1225757
+"57_mannitol","Muck_2224_IMS_5ul_R2_08_40V",928630
+"57_mannitol","Muck_2224_IMS_5ul_R3_09_20V_redo",1087024
+"57_mannitol","Muck_2224_IMS_5ul_R3_09_40V",845651
+"57_mannitol","Muck_5042_IMS_5ul_R1_10_20V_redo",3305157
+"57_mannitol","Muck_5042_IMS_5ul_R1_10_40V",2523643
+"57_mannitol","Muck_5042_IMS_5ul_R2_11_20V_redo",2553922
+"57_mannitol","Muck_5042_IMS_5ul_R2_11_40V",2015750
+"57_mannitol","Muck_5042_IMS_5ul_R3_12_20V_redo",2471885
+"57_mannitol","Muck_5042_IMS_5ul_R3_12_40V",1899394
+"60_acetyl-CoA","CJ019_WT_IMS_5ul_R1_01_20V_redo",519383
+"60_acetyl-CoA","CJ019_WT_IMS_5ul_R1_01_40V",922632
+"60_acetyl-CoA","CJ019_WT_IMS_5ul_R2_02_20V_redo",626723
+"60_acetyl-CoA","CJ019_WT_IMS_5ul_R2_02_40V",1155444
+"60_acetyl-CoA","CJ019_WT_IMS_5ul_R3_03_20V_redo",382714
+"60_acetyl-CoA","CJ019_WT_IMS_5ul_R3_03_40V",733272
+"60_acetyl-CoA","Muck_1642_IMS_5ul_R2_05_20V_redo",227657
+"60_acetyl-CoA","Muck_1642_IMS_5ul_R2_05_40V",400688
+"60_acetyl-CoA","Muck_1642_IMS_5ul_R3_06_20V_redo",176085
+"60_acetyl-CoA","Muck_1642_IMS_5ul_R3_06_40V",313803
+"60_acetyl-CoA","Muck_2224_IMS_5ul_R1_07_20V_redo",146379
+"60_acetyl-CoA","Muck_2224_IMS_5ul_R1_07_40V",267196
+"60_acetyl-CoA","Muck_2224_IMS_5ul_R2_08_20V_redo",156300
+"60_acetyl-CoA","Muck_2224_IMS_5ul_R2_08_40V",281518
+"60_acetyl-CoA","Muck_2224_IMS_5ul_R3_09_20V_redo",134358
+"60_acetyl-CoA","Muck_2224_IMS_5ul_R3_09_40V",262425
+"60_acetyl-CoA","Muck_5042_IMS_5ul_R1_10_20V_redo",159800
+"60_acetyl-CoA","Muck_5042_IMS_5ul_R1_10_40V",314185
+"60_acetyl-CoA","Muck_5042_IMS_5ul_R2_11_20V_redo",91672
+"60_acetyl-CoA","Muck_5042_IMS_5ul_R2_11_40V",160759
+"60_acetyl-CoA","Muck_5042_IMS_5ul_R3_12_20V_redo",174564
+"60_acetyl-CoA","Muck_5042_IMS_5ul_R3_12_40V",323295
+"63_uridine monophosphate","CJ019_WT_IMS_5ul_R1_01_20V_redo",10945647
+"63_uridine monophosphate","CJ019_WT_IMS_5ul_R1_01_40V",11344647
+"63_uridine monophosphate","CJ019_WT_IMS_5ul_R2_02_20V_redo",11651858
+"63_uridine monophosphate","CJ019_WT_IMS_5ul_R2_02_40V",11593705
+"63_uridine monophosphate","CJ019_WT_IMS_5ul_R3_03_20V_redo",11335151
+"63_uridine monophosphate","CJ019_WT_IMS_5ul_R3_03_40V",10958676
+"63_uridine monophosphate","Muck_1642_IMS_5ul_R2_05_20V_redo",2852061
+"63_uridine monophosphate","Muck_1642_IMS_5ul_R2_05_40V",3357237
+"63_uridine monophosphate","Muck_1642_IMS_5ul_R3_06_20V_redo",4831405
+"63_uridine monophosphate","Muck_1642_IMS_5ul_R3_06_40V",4838586
+"63_uridine monophosphate","Muck_2224_IMS_5ul_R1_07_20V_redo",5073889
+"63_uridine monophosphate","Muck_2224_IMS_5ul_R1_07_40V",5120577
+"63_uridine monophosphate","Muck_2224_IMS_5ul_R2_08_20V_redo",5025190
+"63_uridine monophosphate","Muck_2224_IMS_5ul_R2_08_40V",5334892
+"63_uridine monophosphate","Muck_2224_IMS_5ul_R3_09_20V_redo",5184700
+"63_uridine monophosphate","Muck_2224_IMS_5ul_R3_09_40V",5101477
+"63_uridine monophosphate","Muck_5042_IMS_5ul_R1_10_20V_redo",5556626
+"63_uridine monophosphate","Muck_5042_IMS_5ul_R1_10_40V",5576606
+"63_uridine monophosphate","Muck_5042_IMS_5ul_R2_11_20V_redo",7150862
+"63_uridine monophosphate","Muck_5042_IMS_5ul_R2_11_40V",6643569
+"63_uridine monophosphate","Muck_5042_IMS_5ul_R3_12_20V_redo",7711750
+"63_uridine monophosphate","Muck_5042_IMS_5ul_R3_12_40V",7556325
+"64_L-threonine","CJ019_WT_IMS_5ul_R1_01_20V_redo",8539
+"64_L-threonine","CJ019_WT_IMS_5ul_R1_01_40V",456
+"64_L-threonine","CJ019_WT_IMS_5ul_R2_02_20V_redo",7458
+"64_L-threonine","CJ019_WT_IMS_5ul_R2_02_40V",2020
+"64_L-threonine","CJ019_WT_IMS_5ul_R3_03_20V_redo",7497
+"64_L-threonine","CJ019_WT_IMS_5ul_R3_03_40V",4670
+"64_L-threonine","Muck_1642_IMS_5ul_R2_05_20V_redo",62090
+"64_L-threonine","Muck_1642_IMS_5ul_R2_05_40V",53220
+"64_L-threonine","Muck_1642_IMS_5ul_R3_06_20V_redo",30387
+"64_L-threonine","Muck_1642_IMS_5ul_R3_06_40V",16815
+"64_L-threonine","Muck_2224_IMS_5ul_R1_07_20V_redo",29165
+"64_L-threonine","Muck_2224_IMS_5ul_R1_07_40V",29646
+"64_L-threonine","Muck_2224_IMS_5ul_R2_08_20V_redo",30321
+"64_L-threonine","Muck_2224_IMS_5ul_R2_08_40V",25856
+"64_L-threonine","Muck_2224_IMS_5ul_R3_09_20V_redo",34806
+"64_L-threonine","Muck_2224_IMS_5ul_R3_09_40V",18742
+"64_L-threonine","Muck_5042_IMS_5ul_R1_10_20V_redo",59427
+"64_L-threonine","Muck_5042_IMS_5ul_R1_10_40V",43927
+"64_L-threonine","Muck_5042_IMS_5ul_R2_11_20V_redo",32636
+"64_L-threonine","Muck_5042_IMS_5ul_R2_11_40V",20865
+"64_L-threonine","Muck_5042_IMS_5ul_R3_12_20V_redo",37699
+"64_L-threonine","Muck_5042_IMS_5ul_R3_12_40V",22375
+"66_2,4-diaminobutanoic acid","CJ019_WT_IMS_5ul_R1_01_20V_redo",NA
+"66_2,4-diaminobutanoic acid","CJ019_WT_IMS_5ul_R1_01_40V",NA
+"66_2,4-diaminobutanoic acid","CJ019_WT_IMS_5ul_R2_02_20V_redo",367
+"66_2,4-diaminobutanoic acid","CJ019_WT_IMS_5ul_R2_02_40V",NA
+"66_2,4-diaminobutanoic acid","CJ019_WT_IMS_5ul_R3_03_20V_redo",191
+"66_2,4-diaminobutanoic acid","CJ019_WT_IMS_5ul_R3_03_40V",467
+"66_2,4-diaminobutanoic acid","Muck_1642_IMS_5ul_R2_05_20V_redo",0
+"66_2,4-diaminobutanoic acid","Muck_1642_IMS_5ul_R2_05_40V",3668
+"66_2,4-diaminobutanoic acid","Muck_1642_IMS_5ul_R3_06_20V_redo",3284
+"66_2,4-diaminobutanoic acid","Muck_1642_IMS_5ul_R3_06_40V",2037
+"66_2,4-diaminobutanoic acid","Muck_2224_IMS_5ul_R1_07_20V_redo",3237
+"66_2,4-diaminobutanoic acid","Muck_2224_IMS_5ul_R1_07_40V",6784
+"66_2,4-diaminobutanoic acid","Muck_2224_IMS_5ul_R2_08_20V_redo",1898
+"66_2,4-diaminobutanoic acid","Muck_2224_IMS_5ul_R2_08_40V",104
+"66_2,4-diaminobutanoic acid","Muck_2224_IMS_5ul_R3_09_20V_redo",3501
+"66_2,4-diaminobutanoic acid","Muck_2224_IMS_5ul_R3_09_40V",1306
+"66_2,4-diaminobutanoic acid","Muck_5042_IMS_5ul_R1_10_20V_redo",11856
+"66_2,4-diaminobutanoic acid","Muck_5042_IMS_5ul_R1_10_40V",6444
+"66_2,4-diaminobutanoic acid","Muck_5042_IMS_5ul_R2_11_20V_redo",7481
+"66_2,4-diaminobutanoic acid","Muck_5042_IMS_5ul_R2_11_40V",6218
+"66_2,4-diaminobutanoic acid","Muck_5042_IMS_5ul_R3_12_20V_redo",8890
+"66_2,4-diaminobutanoic acid","Muck_5042_IMS_5ul_R3_12_40V",5022

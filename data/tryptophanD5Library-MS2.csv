@@ -1,0 +1,6 @@
+PrecursorName,ProductName,ProductMz,LibraryIntensity,methodCE
+cal_tryptophan D5,precursor,208.114534,614382,20V
+cal_tryptophan D5,120,120.0747,64960,20V
+cal_tryptophan D5,121,121.075,32125,20V
+cal_tryptophan D5,146,146.0889,16168,20V
+cal_tryptophan D5,147,147.0941,17911,20V

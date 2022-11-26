@@ -20,6 +20,7 @@ alignmentTable = "xMSDIAL/PeakID_0_20221211731.txt"
 
 #setwd(file.path(basePathData,"data/Rhodo"))
 #alignmentTable = "xMSDIAL/PeakID_0_2022126180.txt"
+alignmentTable = "xMSDIAL/PeakID_1_20221171618.txt"
 
 
 sampleString = basename(getwd())

@@ -115,11 +115,13 @@ targets$countBadMetrics[indexes] = targets$countBadMetrics[indexes] + 1
 
 # RT difference to precursor, flag fragment if RT difference is larger than tolerance: 
 #indexes = which(abs(targets$DIA.RTdiff) > targets$Precursor.Fwhm * 0.1)
-indexes = which(abs(targets$DIA.RTdiff) > 0.1)
+#indexes = which(abs(targets$DIA.RTdiff) > 0.1)
+indexes = which(abs(targets$DIA.RTdiff) > 0.025)
 targets$countBadMetrics[indexes] = targets$countBadMetrics[indexes] + 1
 
 # FWHM difference to precursor, flag fragment if FWHM is larger than the precursor FWHM: 
-indexes = which(abs(targets$DIA.FWHMdiff) > targets$Precursor.Fwhm * 2)
+#indexes = which(abs(targets$DIA.FWHMdiff) > targets$Precursor.Fwhm * 2)
+indexes = which(abs(targets$DIA.FWHMdiff) > targets$Precursor.Fwhm / 2)
 targets$countBadMetrics[indexes] = targets$countBadMetrics[indexes] + 1
 
 hist(targets$countBadMetrics)
