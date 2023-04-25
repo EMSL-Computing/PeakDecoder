@@ -27,4 +27,6 @@ aivett.bilbao@pnnl.gov
 
 ### Reference
 
-If you use PeakDecoder or any portions of this code please cite: Bilbao et al. "PeakDecoder enables machine learning-based metabolite identification and accurate profiling in multidimensional mass spectrometry measurements". Submitted.
+If you use PeakDecoder or any portions of this code please cite: Bilbao et al. "PeakDecoder enables machine learning-based metabolite annotation and accurate profiling in multidimensional mass spectrometry measurements". Nature Communications https://doi.org/10.1038/s41467-023-37031-9.
+
+[![DOI](https://zenodo.org/badge/455360450.svg)](https://zenodo.org/badge/latestdoi/455360450)
